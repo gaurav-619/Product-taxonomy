@@ -1,0 +1,56 @@
+# Exclude secrets and docs
+.env
+Complete_Thesis_Documentation.md
+
+# Exclude large data files (GitHub limit is 100MB)
+Dataset/data/icecat_train_en_filtered.csv
+Dataset/data/icecat_clustered hdbscan.csv
+Dataset/data/icecat_hierarchically_balanced.csv
+Dataset/data/clustering_comparison_results.csv
+Dataset/data/embeddings_minilm.npy
+
+# Root level large CSVs and intermediate results
+Master_Clustering_Explorer.csv
+Ultimate_Clustering_Report.xlsx
+Final_Clustering_Comparison.xlsx
+icecat_preprocessed_final_text.csv
+Naming_Robust_Final.csv
+Naming_Robust_Final_EVALUATED.csv
+Naming_Robust_Final_clean.csv
+Naming_Robust_Final_clean1.csv
+final_inspection_view.csv
+Cluster_Bucket_Inspection.csv
+Cluster_Profiles_for_LLM.csv
+
+# Exclude temporary and Word files
+~$*
+*.tmp
+*.docx
+*.pdf
+Docs/
+Papers/
+
+# Exclude generated figures and HTML (keeping small thesis figures)
+Taxonomy_Tree_Interactive.html
+taxonomy_sunburst_interactive.html
+taxonomy_sunburst_highres.png
+*.npy
+*.pkl
+*.parquet
+
+# Exclude data directories entirely (keep folders, ignore contents)
+Dataset/data/*
+Dataset/raw_data/*
+Dataset/reports/*
+!Dataset/data/.gitkeep
+!Dataset/raw_data/.gitkeep
+!Dataset/reports/.gitkeep
+
+# Exclude Python cache
+**/__pycache__/
+*.pyc
+
+# Local IDE folders
+.vscode/
+.idea/
+.gemini/
