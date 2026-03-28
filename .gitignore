@@ -16,7 +16,7 @@ Final_Clustering_Comparison.xlsx
 icecat_preprocessed_final_text.csv
 Naming_Robust_Final.csv
 Naming_Robust_Final_EVALUATED.csv
-Naming_Robust_Final_clean.csv
+# Naming_Robust_Final_clean.csv  <-- UN-IGNORED for app.py
 Naming_Robust_Final_clean1.csv
 final_inspection_view.csv
 Cluster_Bucket_Inspection.csv
@@ -34,8 +34,8 @@ Papers/
 Taxonomy_Tree_Interactive.html
 taxonomy_sunburst_interactive.html
 taxonomy_sunburst_highres.png
-*.npy
-*.pkl
+# *.npy  <-- Allowed specific for app.py
+# *.pkl  <-- Allowed specific for app.py
 *.parquet
 
 # Exclude data directories entirely (keep folders, ignore contents)
@@ -45,6 +45,11 @@ Dataset/reports/*
 !Dataset/data/.gitkeep
 !Dataset/raw_data/.gitkeep
 !Dataset/reports/.gitkeep
+
+# explicitly allow app dependencies
+!Dataset/data/cluster_centroids_411.npy
+!Dataset/data/umap_fitted_5d.pkl
+!Naming_Robust_Final_clean.csv
 
 # Exclude Python cache
 **/__pycache__/
