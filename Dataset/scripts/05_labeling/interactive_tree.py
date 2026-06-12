@@ -18,8 +18,9 @@ df_final = df_final[['Root', 'Parent', 'Leaf']].rename(columns={
 })
 
 # --- 2. AUTONOMOUS DOMAIN SELECTION ---
-# Find the top 2 domains to keep the printout concise for the thesis page
-top_domains = df_final['Level_1'].value_counts().nlargest(2).index.tolist()
+# Show all domains (includes Home & Office) for full coverage in the tree
+# For a concise version, switch back to nlargest(2) or apply a max domain count.
+top_domains = df_final['Level_1'].value_counts().index.tolist()
 
 # --- 3. GENERATE TERMINAL TREE ---
 
