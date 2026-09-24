@@ -186,7 +186,6 @@ The repository includes an interactive web dashboard for inspecting taxonomy str
 ```
 ├── app.py                          # Streamlit application entrypoint
 ├── requirements.txt                # Production dependency specification
-├── requirements_freeze.txt         # Full environment freeze archive
 ├── Final_Evaluation_Results.csv    # Empirical evaluation metrics table
 ├── Naming_Robust_Final_clean.csv   # The 411 cluster taxonomy definitions
 ├── Images/                         # Thesis architecture diagrams and evaluation plots
