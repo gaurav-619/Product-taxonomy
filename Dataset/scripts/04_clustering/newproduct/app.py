@@ -806,7 +806,7 @@ st.sidebar.markdown("---")
 
 page = st.sidebar.radio(
     "Navigation",
-    ["🔍 Assign Product", "🌳 Taxonomy Tree"],
+    ["🔍 Assign Product", "🌳 Taxonomy Tree", "🗂️ Explore Taxonomy", "📊 Evaluation Results", "⚙️ Methodology", "🚀 Product Discovery"],
     label_visibility="collapsed"
 )
 
@@ -1544,5 +1544,72 @@ elif page == "⚙️ Methodology":
         unsafe_allow_html=True
     )
 
-
+# ══════════════════════════════════════════════════════════════════════════════
+# PAGE X — PRODUCT DISCOVERY LAYER
+# ══════════════════════════════════════════════════════════════════════════════
+elif page == "🚀 Product Discovery":
+    thesis_banner()
+    st.title("🚀 Product Discovery Layer")
+    st.markdown("Exploring downstream applications of the generated taxonomy.")
+    
+    tab1, tab2, tab3 = st.tabs(["🔍 Search Relevance", "📋 CMS Attribute Schemas", "🔗 SKOS Ontology Export"])
+    
+    with tab1:
+        st.subheader("Taxonomy-Aware Product Retrieval")
+        st.markdown("We compared a baseline semantic search (cosine similarity on MiniLM embeddings) against a taxonomy-aware retrieval that boosts products in the predicted category.")
+        
+        # Display the static results DataFrame from the offline evaluation
+        results_df = pd.DataFrame([
+            {"Query": "DDR3 8GB desktop RAM", "Target Leaf": "Memory Modules", "Base MRR": 0.008850, "Tax MRR": 0.004695},
+            {"Query": "wireless optical mouse for laptop", "Target Leaf": "Input Devices", "Base MRR": 1.0, "Tax MRR": 1.0},
+            {"Query": "antivirus software 1 year license", "Target Leaf": "Antivirus Licenses", "Base MRR": 0.2, "Tax MRR": 0.05},
+            {"Query": "24 inch 1080p touch screen monitor", "Target Leaf": "Touch Screen Monitors", "Base MRR": 0.015625, "Tax MRR": 0.006329},
+            {"Query": "Cisco 48 port gigabit switch", "Target Leaf": "Network Switches", "Base MRR": 0.166667, "Tax MRR": 0.05},
+            {"Query": "1TB NVMe internal SSD", "Target Leaf": "Solid State Drives", "Base MRR": 1.0, "Tax MRR": 1.0},
+            {"Query": "photo paper glossy a4", "Target Leaf": "Photo Paper", "Base MRR": 0.041667, "Tax MRR": 0.013333},
+            {"Query": "black toner cartridge hp", "Target Leaf": "Toner Cartridges", "Base MRR": 0.083333, "Tax MRR": 0.019231}
+        ])
+        st.dataframe(results_df, use_container_width=True)
+        
+        st.info("**Key Finding (The Out-of-Sample Problem):** While taxonomy-aware constraints are essential in production, routing short, unseen queries through the UMAP 5D projection caused ranking degradation. This highlights that production retrieval requires a dedicated query-to-category classifier rather than relying purely on training-optimized dimensionality reduction.")
+        
+    with tab2:
+        st.subheader("Category-Specific Attribute Schemas")
+        st.markdown("Converting keyword clusters into structured JSON schemas for Shopify/Magento integration using Qwen 2.5 7B.")
+        
+        schemas = {
+          "Electronics > Computer Hardware > Memory Modules": {
+            "Memory Type": {"type": "categorical", "values": ["DDR3", "DDR4", "DDR5"]},
+            "Capacity": {"type": "numeric", "unit": "GB"},
+            "Speed": {"type": "numeric", "unit": "MHz"}
+          },
+          "Office Supplies > Printers > Printers Products": {
+            "Printer Type": {"type": "categorical", "values": ["Laser", "Inkjet"]},
+            "Resolution": {"type": "numeric", "unit": "DPI"},
+            "Color": {"type": "boolean", "values": ["Monochrome", "Color"]}
+          }
+        }
+        
+        cat_select = st.selectbox("Select Category", list(schemas.keys()))
+        st.json(schemas[cat_select])
+        st.caption("These schemas allow downstream Content Management Systems to enforce structured product metadata.")
+        
+    with tab3:
+        st.subheader("Semantic Web Interoperability (SKOS/RDF)")
+        st.markdown("The flat `Root > Parent > Leaf` CSV has been exported into a W3C standard **SKOS** ontology graph (`taxonomy.ttl`) containing 2,224 RDF triples, allowing integration with global knowledge graphs like Wikidata or GS1 GPC.")
+        
+        ttl_path = os.path.join(BASE_DIR, '..', '..', '07_enhancements', 'taxonomy.ttl')
+        if os.path.exists(ttl_path):
+            with open(ttl_path, 'r') as f:
+                ttl_data = f.read()
+            st.download_button(
+                label="Download taxonomy.ttl",
+                data=ttl_data,
+                file_name="taxonomy.ttl",
+                mime="text/turtle"
+            )
+            with st.expander("Preview .ttl file"):
+                st.code(ttl_data[:1000] + "\\n\\n... (truncated)", language="turtle")
+        else:
+            st.warning("taxonomy.ttl not found. Run `03_skos_export.py` first.")
 

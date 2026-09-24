@@ -1,0 +1,12 @@
+Metric,Value,Type,Interpretation
+Silhouette Score,0.6564773321151733,Internal,Higher is better (max 1.0)
+Davies-Bouldin Index,0.39920280554526316,Internal,Lower is better (min 0.0)
+Calinski-Harabasz Index,36264.13824108817,Internal,Higher is better
+Mean Cluster Purity,0.7427753446674071,Internal,Higher is better (max 1.0)
+Adjusted Rand Index (ARI),0.40939686346011717,External,Higher is better (max 1.0)
+Normalized Mutual Information (NMI),0.7932998458944237,External,Higher is better (max 1.0)
+Homogeneity,0.8204409248889217,External,Higher is better (max 1.0)
+Completeness,0.7678969778709243,External,Higher is better (max 1.0)
+V-Measure,0.7932998458944236,External,Higher is better (max 1.0)
+Coverage (%),100.0,Coverage,100% = full product coverage
+Mean Naming Coherence,0.4724776155717762,Naming,Higher is better (max 1.0)

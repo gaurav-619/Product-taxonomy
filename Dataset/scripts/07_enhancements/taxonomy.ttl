@@ -1,0 +1,2744 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix taxa: <http://thesis.jadhav.dev/taxonomy/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+taxa:Electronics_Adapters___Converters_USB_to_Serial_Adapters a skos:Concept ;
+    taxa:clusterID 377 ;
+    taxa:coherenceScore 5.519e-01 ;
+    skos:broader taxa:Electronics_Adapters___Converters ;
+    skos:prefLabel "USB to Serial Adapters"@en .
+
+taxa:Electronics_Alarm_Clocks_Digital_Alarm_Clocks a skos:Concept ;
+    taxa:clusterID 27 ;
+    taxa:coherenceScore 1.212e-01 ;
+    skos:broader taxa:Electronics_Alarm_Clocks ;
+    skos:prefLabel "Digital Alarm Clocks"@en .
+
+taxa:Electronics_Antenna_Cables_Antenna_Cable a skos:Concept ;
+    taxa:clusterID 305 ;
+    taxa:coherenceScore 4.884e-01 ;
+    skos:broader taxa:Electronics_Antenna_Cables ;
+    skos:prefLabel "Antenna Cable"@en .
+
+taxa:Electronics_Audio_Devices_Speakers a skos:Concept ;
+    taxa:clusterID 135 ;
+    taxa:coherenceScore 3.008e-01 ;
+    skos:broader taxa:Electronics_Audio_Devices ;
+    skos:prefLabel "Speakers"@en .
+
+taxa:Electronics_Audio_Equipment_Soundbars a skos:Concept ;
+    taxa:clusterID 388 ;
+    taxa:coherenceScore 3.735e-01 ;
+    skos:broader taxa:Electronics_Audio_Equipment ;
+    skos:prefLabel "Soundbars"@en .
+
+taxa:Electronics_Audio_Equipment_Speakers a skos:Concept ;
+    taxa:clusterID 108 ;
+    taxa:coherenceScore 4.166e-01 ;
+    skos:broader taxa:Electronics_Audio_Equipment ;
+    skos:prefLabel "Speakers"@en .
+
+taxa:Electronics_Audio_Equipment_Turntables a skos:Concept ;
+    taxa:clusterID 144 ;
+    taxa:coherenceScore 5.537e-01 ;
+    skos:broader taxa:Electronics_Audio_Equipment ;
+    skos:prefLabel "Turntables"@en .
+
+taxa:Electronics_Audio_Players_iPod a skos:Concept ;
+    taxa:clusterID 148 ;
+    taxa:coherenceScore 2.329e-01 ;
+    skos:broader taxa:Electronics_Audio_Players ;
+    skos:prefLabel "iPod"@en .
+
+taxa:Electronics_Audio___Video_Equipment_Extenders a skos:Concept ;
+    taxa:clusterID 356 ;
+    taxa:coherenceScore 4.672e-01 ;
+    skos:broader taxa:Electronics_Audio___Video_Equipment ;
+    skos:prefLabel "Extenders"@en .
+
+taxa:Electronics_Audio___Video_Equipment_Microphones a skos:Concept ;
+    taxa:clusterID 191 ;
+    taxa:coherenceScore 5.278e-01 ;
+    skos:broader taxa:Electronics_Audio___Video_Equipment ;
+    skos:prefLabel "Microphones"@en .
+
+taxa:Electronics_Barcode_Readers_1D_Bar_Code_Reader a skos:Concept ;
+    taxa:clusterID 283 ;
+    taxa:coherenceScore 6.691e-01 ;
+    skos:broader taxa:Electronics_Barcode_Readers ;
+    skos:prefLabel "1D Bar Code Reader"@en .
+
+taxa:Electronics_Batteries_Battery a skos:Concept ;
+    taxa:clusterID 14 ;
+    taxa:coherenceScore 3.832e-01 ;
+    skos:broader taxa:Electronics_Batteries ;
+    skos:prefLabel "Battery"@en .
+
+taxa:Electronics_Batteries_Rechargeable_Batteries a skos:Concept ;
+    taxa:clusterID 276 ;
+    taxa:coherenceScore 3.415e-01 ;
+    skos:broader taxa:Electronics_Batteries ;
+    skos:prefLabel "Rechargeable Batteries"@en .
+
+taxa:Electronics_Batteries_Sealed_Lead_Acid__VRLA__Battery a skos:Concept ;
+    taxa:clusterID 93 ;
+    taxa:coherenceScore 5.728e-01 ;
+    skos:broader taxa:Electronics_Batteries ;
+    skos:prefLabel "Sealed Lead Acid (VRLA) Battery"@en .
+
+taxa:Electronics_Batteries_Uninterruptible_Power_Supply__UPS__Batteries a skos:Concept ;
+    taxa:clusterID 303 ;
+    taxa:coherenceScore 4.417e-01 ;
+    skos:broader taxa:Electronics_Batteries ;
+    skos:prefLabel "Uninterruptible Power Supply (UPS) Batteries"@en .
+
+taxa:Electronics_Batteries___Chargers_Battery_Charger a skos:Concept ;
+    taxa:clusterID 202 ;
+    taxa:coherenceScore 5.203e-01 ;
+    skos:broader taxa:Electronics_Batteries___Chargers ;
+    skos:prefLabel "Battery Charger"@en .
+
+taxa:Electronics_Batteries___Chargers_Battery_Chargers a skos:Concept ;
+    taxa:clusterID 289 ;
+    taxa:coherenceScore 4.178e-01 ;
+    skos:broader taxa:Electronics_Batteries___Chargers ;
+    skos:prefLabel "Battery Chargers"@en .
+
+taxa:Electronics_Batteries___Chargers_Rechargeable_Batteries a skos:Concept ;
+    taxa:clusterID 185 ;
+    taxa:coherenceScore 3.795e-01 ;
+    skos:broader taxa:Electronics_Batteries___Chargers ;
+    skos:prefLabel "Rechargeable Batteries"@en .
+
+taxa:Electronics_Batteries___Power_Supply_Single_use_Batteries a skos:Concept ;
+    taxa:clusterID 193 ;
+    taxa:coherenceScore 4.624e-01 ;
+    skos:broader taxa:Electronics_Batteries___Power_Supply ;
+    skos:prefLabel "Single-use Batteries"@en .
+
+taxa:Electronics_Battery_Accessories_Battery_Extension_Modules a skos:Concept ;
+    taxa:clusterID 392 ;
+    taxa:coherenceScore 5.512e-01 ;
+    skos:broader taxa:Electronics_Battery_Accessories ;
+    skos:prefLabel "Battery Extension Modules"@en .
+
+taxa:Electronics_Battery_Chargers_Battery_Chargers_Products a skos:Concept ;
+    taxa:clusterID 141 ;
+    taxa:coherenceScore 4.111e-01 ;
+    skos:broader taxa:Electronics_Battery_Chargers ;
+    skos:prefLabel "Battery Chargers Products"@en .
+
+taxa:Electronics_Cables___Adapters_Adapters a skos:Concept ;
+    taxa:clusterID 157 ;
+    taxa:coherenceScore 4.97e-01 ;
+    skos:broader taxa:Electronics_Cables___Adapters ;
+    skos:prefLabel "Adapters"@en .
+
+taxa:Electronics_Cables___Connectors_Adapters a skos:Concept ;
+    taxa:clusterID 36 ;
+    taxa:coherenceScore 4.964e-01 ;
+    skos:broader taxa:Electronics_Cables___Connectors ;
+    skos:prefLabel "Adapters"@en .
+
+taxa:Electronics_Cables___Connectors_Audio_Cables a skos:Concept ;
+    taxa:clusterID 83 ;
+    taxa:coherenceScore 5.594e-01 ;
+    skos:broader taxa:Electronics_Cables___Connectors ;
+    skos:prefLabel "Audio Cables"@en .
+
+taxa:Electronics_Cables___Connectors_Audio_Video_Cable a skos:Concept ;
+    taxa:clusterID 405 ;
+    taxa:coherenceScore 5.935e-01 ;
+    skos:broader taxa:Electronics_Cables___Connectors ;
+    skos:prefLabel "Audio Video Cable"@en .
+
+taxa:Electronics_Cables___Connectors_Cable a skos:Concept ;
+    taxa:clusterID 330 ;
+    taxa:coherenceScore 3.944e-01 ;
+    skos:broader taxa:Electronics_Cables___Connectors ;
+    skos:prefLabel "Cable"@en .
+
+taxa:Electronics_Cables___Connectors_Cable_Protectors a skos:Concept ;
+    taxa:clusterID 365 ;
+    taxa:coherenceScore 5.499e-01 ;
+    skos:broader taxa:Electronics_Cables___Connectors ;
+    skos:prefLabel "Cable Protectors"@en .
+
+taxa:Electronics_Cables___Connectors_DVI_Cables a skos:Concept ;
+    taxa:clusterID 319 ;
+    taxa:coherenceScore 5.938e-01 ;
+    skos:broader taxa:Electronics_Cables___Connectors ;
+    skos:prefLabel "DVI Cables"@en .
+
+taxa:Electronics_Cables___Connectors_Infiniband_Cables a skos:Concept ;
+    taxa:clusterID 90 ;
+    taxa:coherenceScore 6.535e-01 ;
+    skos:broader taxa:Electronics_Cables___Connectors ;
+    skos:prefLabel "Infiniband Cables"@en .
+
+taxa:Electronics_Cables___Connectors_Power_Cables a skos:Concept ;
+    taxa:clusterID 63 ;
+    taxa:coherenceScore 3.641e-01 ;
+    skos:broader taxa:Electronics_Cables___Connectors ;
+    skos:prefLabel "Power Cables"@en .
+
+taxa:Electronics_Cables___Connectors_RCA_Cables a skos:Concept ;
+    taxa:clusterID 37 ;
+    taxa:coherenceScore 5.464e-01 ;
+    skos:broader taxa:Electronics_Cables___Connectors ;
+    skos:prefLabel "RCA Cables"@en .
+
+taxa:Electronics_Cables___Connectors_Serial_Cables a skos:Concept ;
+    taxa:clusterID 300 ;
+    taxa:coherenceScore 5.739e-01 ;
+    skos:broader taxa:Electronics_Cables___Connectors ;
+    skos:prefLabel "Serial Cables"@en .
+
+taxa:Electronics_Cables___Connectors_Thunderbolt_Cables a skos:Concept ;
+    taxa:clusterID 160 ;
+    taxa:coherenceScore 5.76e-01 ;
+    skos:broader taxa:Electronics_Cables___Connectors ;
+    skos:prefLabel "Thunderbolt Cables"@en .
+
+taxa:Electronics_Cables___Connectors_Video_Cables a skos:Concept ;
+    taxa:clusterID 320 ;
+    taxa:coherenceScore 5.197e-01 ;
+    skos:broader taxa:Electronics_Cables___Connectors ;
+    skos:prefLabel "Video Cables"@en .
+
+taxa:Electronics_Cables___Networking_SAS___SCSI_Cables a skos:Concept ;
+    taxa:clusterID 7 ;
+    taxa:coherenceScore 4.697e-01 ;
+    skos:broader taxa:Electronics_Cables___Networking ;
+    skos:prefLabel "SAS & SCSI Cables"@en .
+
+taxa:Electronics_Cables___Networking_SCSI_Cables a skos:Concept ;
+    taxa:clusterID 73 ;
+    taxa:coherenceScore 4.231e-01 ;
+    skos:broader taxa:Electronics_Cables___Networking ;
+    skos:prefLabel "SCSI Cables"@en .
+
+taxa:Electronics_Calculators_Basic_Calculators a skos:Concept ;
+    taxa:clusterID 52 ;
+    taxa:coherenceScore 5.52e-01 ;
+    skos:broader taxa:Electronics_Calculators ;
+    skos:prefLabel "Basic Calculators"@en .
+
+taxa:Electronics_Calculators_Scientific_Calculators a skos:Concept ;
+    taxa:clusterID 409 ;
+    taxa:coherenceScore 4.965e-01 ;
+    skos:broader taxa:Electronics_Calculators ;
+    skos:prefLabel "Scientific Calculators"@en .
+
+taxa:Electronics_Camcorders_HD_Camcorders a skos:Concept ;
+    taxa:clusterID 39 ;
+    taxa:coherenceScore 4.075e-01 ;
+    skos:broader taxa:Electronics_Camcorders ;
+    skos:prefLabel "HD Camcorders"@en .
+
+taxa:Electronics_Camera_Accessories_Camera_Case a skos:Concept ;
+    taxa:clusterID 5 ;
+    taxa:coherenceScore 3.858e-01 ;
+    skos:broader taxa:Electronics_Camera_Accessories ;
+    skos:prefLabel "Camera Case"@en .
+
+taxa:Electronics_Camera___Photo_Cables a skos:Concept ;
+    taxa:clusterID 332 ;
+    taxa:coherenceScore 2.645e-01 ;
+    skos:broader taxa:Electronics_Camera___Photo ;
+    skos:prefLabel "Cables"@en .
+
+taxa:Electronics_Cameras___Camcorders_Action_Cameras a skos:Concept ;
+    taxa:clusterID 216 ;
+    taxa:coherenceScore 3.416e-01 ;
+    skos:broader taxa:Electronics_Cameras___Camcorders ;
+    skos:prefLabel "Action Cameras"@en .
+
+taxa:Electronics_Cameras___Camcorders_Camera_Cables a skos:Concept ;
+    taxa:clusterID 56 ;
+    taxa:coherenceScore 4.737e-01 ;
+    skos:broader taxa:Electronics_Cameras___Camcorders ;
+    skos:prefLabel "Camera Cables"@en .
+
+taxa:Electronics_Cameras___Camcorders_Camera_Kits a skos:Concept ;
+    taxa:clusterID 401 ;
+    taxa:coherenceScore 5.883e-01 ;
+    skos:broader taxa:Electronics_Cameras___Camcorders ;
+    skos:prefLabel "Camera Kits"@en .
+
+taxa:Electronics_Cameras___Camcorders_Digital_Cameras a skos:Concept ;
+    taxa:clusterID 60 ;
+    taxa:coherenceScore 3.607e-01 ;
+    skos:broader taxa:Electronics_Cameras___Camcorders ;
+    skos:prefLabel "Digital Cameras"@en .
+
+taxa:Electronics_Cameras___Camcorders_Lenses a skos:Concept ;
+    taxa:clusterID 116 ;
+    taxa:coherenceScore 2.632e-01 ;
+    skos:broader taxa:Electronics_Cameras___Camcorders ;
+    skos:prefLabel "Lenses"@en .
+
+taxa:Electronics_Cameras___Camcorders_Underwater_Housing a skos:Concept ;
+    taxa:clusterID 140 ;
+    taxa:coherenceScore 2.853e-01 ;
+    skos:broader taxa:Electronics_Cameras___Camcorders ;
+    skos:prefLabel "Underwater Housing"@en .
+
+taxa:Electronics_Cameras___Imaging_Lenses a skos:Concept ;
+    taxa:clusterID 195 ;
+    taxa:coherenceScore 4.733e-01 ;
+    skos:broader taxa:Electronics_Cameras___Imaging ;
+    skos:prefLabel "Lenses"@en .
+
+taxa:Electronics_Cameras___Photo_Digital_Cameras a skos:Concept ;
+    taxa:clusterID 407 ;
+    taxa:coherenceScore 4.224e-01 ;
+    skos:broader taxa:Electronics_Cameras___Photo ;
+    skos:prefLabel "Digital Cameras"@en .
+
+taxa:Electronics_Cameras___Photography_Digital_Cameras a skos:Concept ;
+    taxa:clusterID 96 ;
+    taxa:coherenceScore 4.33e-01 ;
+    skos:broader taxa:Electronics_Cameras___Photography ;
+    skos:prefLabel "Digital Cameras"@en .
+
+taxa:Electronics_Cameras___Video_Equipment_Video_Capture_Device a skos:Concept ;
+    taxa:clusterID 408 ;
+    taxa:coherenceScore 5.931e-01 ;
+    skos:broader taxa:Electronics_Cameras___Video_Equipment ;
+    skos:prefLabel "Video Capture Device"@en .
+
+taxa:Electronics_Cameras___Video_Equipment_Webcam a skos:Concept ;
+    taxa:clusterID 250 ;
+    taxa:coherenceScore 5.852e-01 ;
+    skos:broader taxa:Electronics_Cameras___Video_Equipment ;
+    skos:prefLabel "Webcam"@en .
+
+taxa:Electronics_Cases___Covers_Tablet_Case a skos:Concept ;
+    taxa:clusterID 106 ;
+    taxa:coherenceScore 5.526e-01 ;
+    skos:broader taxa:Electronics_Cases___Covers ;
+    skos:prefLabel "Tablet Case"@en .
+
+taxa:Electronics_Charging_Adapters_Charging_Adapter a skos:Concept ;
+    taxa:clusterID 68 ;
+    taxa:coherenceScore 5.252e-01 ;
+    skos:broader taxa:Electronics_Charging_Adapters ;
+    skos:prefLabel "Charging Adapter"@en .
+
+taxa:Electronics_Communication_Devices_Two_Way_Radios a skos:Concept ;
+    taxa:clusterID 369 ;
+    taxa:coherenceScore 4.133e-01 ;
+    skos:broader taxa:Electronics_Communication_Devices ;
+    skos:prefLabel "Two-Way Radios"@en .
+
+taxa:Electronics_Computer_Accessories_CPU_Holders a skos:Concept ;
+    taxa:clusterID 261 ;
+    taxa:coherenceScore 5.128e-01 ;
+    skos:broader taxa:Electronics_Computer_Accessories ;
+    skos:prefLabel "CPU Holders"@en .
+
+taxa:Electronics_Computer_Accessories_Cases a skos:Concept ;
+    taxa:clusterID 322 ;
+    taxa:coherenceScore 4.234e-01 ;
+    skos:broader taxa:Electronics_Computer_Accessories ;
+    skos:prefLabel "Cases"@en .
+
+taxa:Electronics_Computer_Accessories_Cases___Towers a skos:Concept ;
+    taxa:clusterID 282 ;
+    taxa:coherenceScore 5.478e-01 ;
+    skos:broader taxa:Electronics_Computer_Accessories ;
+    skos:prefLabel "Cases & Towers"@en .
+
+taxa:Electronics_Computer_Accessories_Connectors___Adapters a skos:Concept ;
+    taxa:clusterID 17 ;
+    taxa:coherenceScore 5.131e-01 ;
+    skos:broader taxa:Electronics_Computer_Accessories ;
+    skos:prefLabel "Connectors & Adapters"@en .
+
+taxa:Electronics_Computer_Accessories_Data_Cables___Adapters a skos:Concept ;
+    taxa:clusterID 47 ;
+    taxa:coherenceScore 5.436e-01 ;
+    skos:broader taxa:Electronics_Computer_Accessories ;
+    skos:prefLabel "Data Cables & Adapters"@en .
+
+taxa:Electronics_Computer_Accessories_Docking_Stations a skos:Concept ;
+    taxa:clusterID 205 ;
+    taxa:coherenceScore 4.962e-01 ;
+    skos:broader taxa:Electronics_Computer_Accessories ;
+    skos:prefLabel "Docking Stations"@en .
+
+taxa:Electronics_Computer_Accessories_Head_Mounted_Displays a skos:Concept ;
+    taxa:clusterID 211 ;
+    taxa:coherenceScore 6.424e-01 ;
+    skos:broader taxa:Electronics_Computer_Accessories ;
+    skos:prefLabel "Head Mounted Displays"@en .
+
+taxa:Electronics_Computer_Accessories_Input_Devices a skos:Concept ;
+    taxa:clusterID 2 ;
+    taxa:coherenceScore 5.232e-01 ;
+    skos:broader taxa:Electronics_Computer_Accessories ;
+    skos:prefLabel "Input Devices"@en .
+
+taxa:Electronics_Computer_Accessories_KVM_Cables a skos:Concept ;
+    taxa:clusterID 110 ;
+    taxa:coherenceScore 5.798e-01 ;
+    skos:broader taxa:Electronics_Computer_Accessories ;
+    skos:prefLabel "KVM Cables"@en .
+
+taxa:Electronics_Computer_Accessories_KVM_Switches a skos:Concept ;
+    taxa:clusterID 98 ;
+    taxa:coherenceScore 5.14e-01 ;
+    skos:broader taxa:Electronics_Computer_Accessories ;
+    skos:prefLabel "KVM Switches"@en .
+
+taxa:Electronics_Computer_Accessories_Keyboard a skos:Concept ;
+    taxa:clusterID 111 ;
+    taxa:coherenceScore 4.758e-01 ;
+    skos:broader taxa:Electronics_Computer_Accessories ;
+    skos:prefLabel "Keyboard"@en .
+
+taxa:Electronics_Computer_Accessories_Keyboards a skos:Concept ;
+    taxa:clusterID 165 ;
+    taxa:coherenceScore 4.684e-01 ;
+    skos:broader taxa:Electronics_Computer_Accessories ;
+    skos:prefLabel "Keyboards"@en .
+
+taxa:Electronics_Computer_Accessories_Keyboards___Keypads a skos:Concept ;
+    taxa:clusterID 152 ;
+    taxa:coherenceScore 4.293e-01 ;
+    skos:broader taxa:Electronics_Computer_Accessories ;
+    skos:prefLabel "Keyboards & Keypads"@en .
+
+taxa:Electronics_Computer_Accessories_Monitors a skos:Concept ;
+    taxa:clusterID 62 ;
+    taxa:coherenceScore 3.585e-01 ;
+    skos:broader taxa:Electronics_Computer_Accessories ;
+    skos:prefLabel "Monitors"@en .
+
+taxa:Electronics_Computer_Accessories_Mounting_Kits a skos:Concept ;
+    taxa:clusterID 227 ;
+    taxa:coherenceScore 5.948e-01 ;
+    skos:broader taxa:Electronics_Computer_Accessories ;
+    skos:prefLabel "Mounting Kits"@en .
+
+taxa:Electronics_Computer_Accessories_Notebook_Displays a skos:Concept ;
+    taxa:clusterID 266 ;
+    taxa:coherenceScore 3.673e-01 ;
+    skos:broader taxa:Electronics_Computer_Accessories ;
+    skos:prefLabel "Notebook Displays"@en .
+
+taxa:Electronics_Computer_Accessories_Notebook_Spare_Parts a skos:Concept ;
+    taxa:clusterID 368 ;
+    taxa:coherenceScore 5.476e-01 ;
+    skos:broader taxa:Electronics_Computer_Accessories ;
+    skos:prefLabel "Notebook Spare Parts"@en .
+
+taxa:Electronics_Computer_Accessories_Smart_Card_Readers a skos:Concept ;
+    taxa:clusterID 271 ;
+    taxa:coherenceScore 4.922e-01 ;
+    skos:broader taxa:Electronics_Computer_Accessories ;
+    skos:prefLabel "Smart Card Readers"@en .
+
+taxa:Electronics_Computer_Accessories_Support_and_Warranty_Services a skos:Concept ;
+    taxa:clusterID 85 ;
+    taxa:coherenceScore 3.929e-01 ;
+    skos:broader taxa:Electronics_Computer_Accessories ;
+    skos:prefLabel "Support and Warranty Services"@en .
+
+taxa:Electronics_Computer_Components_Graphics_Cards a skos:Concept ;
+    taxa:clusterID 183 ;
+    taxa:coherenceScore 5.153e-01 ;
+    skos:broader taxa:Electronics_Computer_Components ;
+    skos:prefLabel "Graphics Cards"@en .
+
+taxa:Electronics_Computer_Components_Motherboard a skos:Concept ;
+    taxa:clusterID 69 ;
+    taxa:coherenceScore 3.166e-01 ;
+    skos:broader taxa:Electronics_Computer_Components ;
+    skos:prefLabel "Motherboard"@en .
+
+taxa:Electronics_Computer_Components_Motherboard_Socket_Accessories a skos:Concept ;
+    taxa:clusterID 49 ;
+    taxa:coherenceScore 2.473e-01 ;
+    skos:broader taxa:Electronics_Computer_Components ;
+    skos:prefLabel "Motherboard Socket Accessories"@en .
+
+taxa:Electronics_Computer_Components_Motherboards a skos:Concept ;
+    taxa:clusterID 293 ;
+    taxa:coherenceScore 4.977e-01 ;
+    skos:broader taxa:Electronics_Computer_Components ;
+    skos:prefLabel "Motherboards"@en .
+
+taxa:Electronics_Computer_Components_Power_Supply_Boards a skos:Concept ;
+    taxa:clusterID 379 ;
+    taxa:coherenceScore 4.817e-01 ;
+    skos:broader taxa:Electronics_Computer_Components ;
+    skos:prefLabel "Power Supply Boards"@en .
+
+taxa:Electronics_Computer_Components_Power_Supply_Units a skos:Concept ;
+    taxa:clusterID 290 ;
+    taxa:coherenceScore 5.891e-01 ;
+    skos:broader taxa:Electronics_Computer_Components ;
+    skos:prefLabel "Power Supply Units"@en .
+
+taxa:Electronics_Computer_Components_Processor a skos:Concept ;
+    taxa:clusterID 153 ;
+    taxa:coherenceScore 4.361e-01 ;
+    skos:broader taxa:Electronics_Computer_Components ;
+    skos:prefLabel "Processor"@en .
+
+taxa:Electronics_Computer_Hardware_Cables_and_Connectors a skos:Concept ;
+    taxa:clusterID 387 ;
+    taxa:coherenceScore 4.625e-01 ;
+    skos:broader taxa:Electronics_Computer_Hardware ;
+    skos:prefLabel "Cables and Connectors"@en .
+
+taxa:Electronics_Computer_Hardware_Display_Spare_Parts a skos:Concept ;
+    taxa:clusterID 375 ;
+    taxa:coherenceScore 6.203e-01 ;
+    skos:broader taxa:Electronics_Computer_Hardware ;
+    skos:prefLabel "Display Spare Parts"@en .
+
+taxa:Electronics_Computer_Hardware_Enclosures___Covers a skos:Concept ;
+    taxa:clusterID 372 ;
+    taxa:coherenceScore 4.161e-01 ;
+    skos:broader taxa:Electronics_Computer_Hardware ;
+    skos:prefLabel "Enclosures & Covers"@en .
+
+taxa:Electronics_Computer_Hardware_Hard_Drives a skos:Concept ;
+    taxa:clusterID 38 ;
+    taxa:coherenceScore 3.009e-01 ;
+    skos:broader taxa:Electronics_Computer_Hardware ;
+    skos:prefLabel "Hard Drives"@en .
+
+taxa:Electronics_Computer_Hardware_Internal_Hard_Drives a skos:Concept ;
+    taxa:clusterID 30 ;
+    taxa:coherenceScore 3.858e-01 ;
+    skos:broader taxa:Electronics_Computer_Hardware ;
+    skos:prefLabel "Internal Hard Drives"@en .
+
+taxa:Electronics_Computer_Hardware_Mainboards a skos:Concept ;
+    taxa:clusterID 316 ;
+    taxa:coherenceScore 4.597e-01 ;
+    skos:broader taxa:Electronics_Computer_Hardware ;
+    skos:prefLabel "Mainboards"@en .
+
+taxa:Electronics_Computer_Hardware_Memory_Modules a skos:Concept ;
+    taxa:clusterID 1 ;
+    taxa:coherenceScore 2.162e-01 ;
+    skos:broader taxa:Electronics_Computer_Hardware ;
+    skos:prefLabel "Memory Modules"@en .
+
+taxa:Electronics_Computer_Hardware_Motherboards a skos:Concept ;
+    taxa:clusterID 103 ;
+    taxa:coherenceScore 5.008e-01 ;
+    skos:broader taxa:Electronics_Computer_Hardware ;
+    skos:prefLabel "Motherboards"@en .
+
+taxa:Electronics_Computer_Hardware_Server_Accessories a skos:Concept ;
+    taxa:clusterID 169 ;
+    taxa:coherenceScore 3.734e-01 ;
+    skos:broader taxa:Electronics_Computer_Hardware ;
+    skos:prefLabel "Server Accessories"@en .
+
+taxa:Electronics_Computer_Hardware_Server_Components a skos:Concept ;
+    taxa:clusterID 342 ;
+    taxa:coherenceScore 3.381e-01 ;
+    skos:broader taxa:Electronics_Computer_Hardware ;
+    skos:prefLabel "Server Components"@en .
+
+taxa:Electronics_Computer_Hardware_Servers a skos:Concept ;
+    taxa:clusterID 12 ;
+    taxa:coherenceScore 2.746e-01 ;
+    skos:broader taxa:Electronics_Computer_Hardware ;
+    skos:prefLabel "Servers"@en .
+
+taxa:Electronics_Computer_Hardware_Solid_State_Drives a skos:Concept ;
+    taxa:clusterID 29 ;
+    taxa:coherenceScore 3.278e-01 ;
+    skos:broader taxa:Electronics_Computer_Hardware ;
+    skos:prefLabel "Solid State Drives"@en .
+
+taxa:Electronics_Computer_Hardware_Spare_Parts a skos:Concept ;
+    taxa:clusterID 336 ;
+    taxa:coherenceScore 3.541e-01 ;
+    skos:broader taxa:Electronics_Computer_Hardware ;
+    skos:prefLabel "Spare Parts"@en .
+
+taxa:Electronics_Computers_Desktop_PCs a skos:Concept ;
+    taxa:clusterID 168 ;
+    taxa:coherenceScore 2.994e-01 ;
+    skos:broader taxa:Electronics_Computers ;
+    skos:prefLabel "Desktop PCs"@en .
+
+taxa:Electronics_Computers___Accessories_Memory_Modules a skos:Concept ;
+    taxa:clusterID 87 ;
+    taxa:coherenceScore 3.91e-01 ;
+    skos:broader taxa:Electronics_Computers___Accessories ;
+    skos:prefLabel "Memory Modules"@en .
+
+taxa:Electronics_Computers___Accessories_PCs a skos:Concept ;
+    taxa:clusterID 55 ;
+    taxa:coherenceScore 3.676e-01 ;
+    skos:broader taxa:Electronics_Computers___Accessories ;
+    skos:prefLabel "PCs"@en .
+
+taxa:Electronics_Computers___Components_Storage a skos:Concept ;
+    taxa:clusterID 128 ;
+    taxa:coherenceScore 3.035e-01 ;
+    skos:broader taxa:Electronics_Computers___Components ;
+    skos:prefLabel "Storage"@en .
+
+taxa:Electronics_Computers___Computer_Parts_Barebone_PCs a skos:Concept ;
+    taxa:clusterID 190 ;
+    taxa:coherenceScore 3.769e-01 ;
+    skos:broader taxa:Electronics_Computers___Computer_Parts ;
+    skos:prefLabel "Barebone PCs"@en .
+
+taxa:Electronics_Computers___Laptops_Desktop_Computers a skos:Concept ;
+    taxa:clusterID 99 ;
+    taxa:coherenceScore 3.075e-01 ;
+    skos:broader taxa:Electronics_Computers___Laptops ;
+    skos:prefLabel "Desktop Computers"@en .
+
+taxa:Electronics_Computers___Notebooks_Custom_Configurations a skos:Concept ;
+    taxa:clusterID 328 ;
+    taxa:coherenceScore 3.991e-01 ;
+    skos:broader taxa:Electronics_Computers___Notebooks ;
+    skos:prefLabel "Custom Configurations"@en .
+
+taxa:Electronics_Computers___Notebooks_Desktop_PCs a skos:Concept ;
+    taxa:clusterID 294 ;
+    taxa:coherenceScore 3.607e-01 ;
+    skos:broader taxa:Electronics_Computers___Notebooks ;
+    skos:prefLabel "Desktop PCs"@en .
+
+taxa:Electronics_Computers___Servers_Desktop_Computers a skos:Concept ;
+    taxa:clusterID 189 ;
+    taxa:coherenceScore 3.342e-01 ;
+    skos:broader taxa:Electronics_Computers___Servers ;
+    skos:prefLabel "Desktop Computers"@en .
+
+taxa:Electronics_Computers___Workstations_POS_Systems a skos:Concept ;
+    taxa:clusterID 198 ;
+    taxa:coherenceScore 3.292e-01 ;
+    skos:broader taxa:Electronics_Computers___Workstations ;
+    skos:prefLabel "POS Systems"@en .
+
+taxa:Electronics_Connectivity_Cables___Adapters_FireWire_Cables a skos:Concept ;
+    taxa:clusterID 233 ;
+    taxa:coherenceScore 6.269e-01 ;
+    skos:broader taxa:Electronics_Connectivity_Cables___Adapters ;
+    skos:prefLabel "FireWire Cables"@en .
+
+taxa:Electronics_Connectivity_Cables___Adapters_Video_Cables a skos:Concept ;
+    taxa:clusterID 122 ;
+    taxa:coherenceScore 5.422e-01 ;
+    skos:broader taxa:Electronics_Connectivity_Cables___Adapters ;
+    skos:prefLabel "Video Cables"@en .
+
+taxa:Electronics_Connectivity_Devices_HDMI_Splitters___Switches a skos:Concept ;
+    taxa:clusterID 186 ;
+    taxa:coherenceScore 5.096e-01 ;
+    skos:broader taxa:Electronics_Connectivity_Devices ;
+    skos:prefLabel "HDMI Splitters & Switches"@en .
+
+taxa:Electronics_Customer_Display_Units_Display a skos:Concept ;
+    taxa:clusterID 347 ;
+    taxa:coherenceScore 4.896e-01 ;
+    skos:broader taxa:Electronics_Customer_Display_Units ;
+    skos:prefLabel "Display"@en .
+
+taxa:Electronics_DVD_Players_Blu_ray_Player a skos:Concept ;
+    taxa:clusterID 194 ;
+    taxa:coherenceScore 2.992e-01 ;
+    skos:broader taxa:Electronics_DVD_Players ;
+    skos:prefLabel "Blu-ray Player"@en .
+
+taxa:Electronics_Desktop_PCs_Black_Desktop_PC_1_2_GHz a skos:Concept ;
+    taxa:clusterID 46 ;
+    taxa:coherenceScore 5.295e-01 ;
+    skos:broader taxa:Electronics_Desktop_PCs ;
+    skos:prefLabel "Black Desktop PC 1.2 GHz"@en .
+
+taxa:Electronics_Digital_Media_Players_Black_Digital_Media_Player a skos:Concept ;
+    taxa:clusterID 34 ;
+    taxa:coherenceScore 4.06e-01 ;
+    skos:broader taxa:Electronics_Digital_Media_Players ;
+    skos:prefLabel "Black Digital Media Player"@en .
+
+taxa:Electronics_Digital_Photo_Frames_cm__digital__frame____photo a skos:Concept ;
+    taxa:clusterID 79 ;
+    taxa:coherenceScore 5.061e-01 ;
+    skos:broader taxa:Electronics_Digital_Photo_Frames ;
+    skos:prefLabel "cm, digital, frame, , photo"@en .
+
+taxa:Electronics_Displays___Monitors_Cables___Adapters a skos:Concept ;
+    taxa:clusterID 338 ;
+    taxa:coherenceScore 5.25e-01 ;
+    skos:broader taxa:Electronics_Displays___Monitors ;
+    skos:prefLabel "Cables & Adapters"@en .
+
+taxa:Electronics_Displays___Monitors_Touch_Screen_Monitors a skos:Concept ;
+    taxa:clusterID 154 ;
+    taxa:coherenceScore 2.819e-01 ;
+    skos:broader taxa:Electronics_Displays___Monitors ;
+    skos:prefLabel "Touch Screen Monitors"@en .
+
+taxa:Electronics_E_Readers_Ebook_Readers a skos:Concept ;
+    taxa:clusterID 309 ;
+    taxa:coherenceScore 5.636e-01 ;
+    skos:broader taxa:Electronics_E_Readers ;
+    skos:prefLabel "Ebook Readers"@en .
+
+taxa:Electronics_Fitness_Trackers_Tracker a skos:Concept ;
+    taxa:clusterID 45 ;
+    taxa:coherenceScore 3.104e-01 ;
+    skos:broader taxa:Electronics_Fitness_Trackers ;
+    skos:prefLabel "Tracker"@en .
+
+taxa:Electronics_Flat_Panel_Monitor_Accessories_Mount a skos:Concept ;
+    taxa:clusterID 120 ;
+    taxa:coherenceScore 4.506e-01 ;
+    skos:broader taxa:Electronics_Flat_Panel_Monitor_Accessories ;
+    skos:prefLabel "Mount"@en .
+
+taxa:Electronics_Head_Mounted_Displays_VR_Headsets a skos:Concept ;
+    taxa:clusterID 317 ;
+    taxa:coherenceScore 5.516e-01 ;
+    skos:broader taxa:Electronics_Head_Mounted_Displays ;
+    skos:prefLabel "VR Headsets"@en .
+
+taxa:Electronics_Headphones_Sony a skos:Concept ;
+    taxa:clusterID 159 ;
+    taxa:coherenceScore 5.086e-01 ;
+    skos:broader taxa:Electronics_Headphones ;
+    skos:prefLabel "Sony"@en .
+
+taxa:Electronics_Headphones___Audio_Accessories_Binaural_Headset a skos:Concept ;
+    taxa:clusterID 201 ;
+    taxa:coherenceScore 4.633e-01 ;
+    skos:broader taxa:Electronics_Headphones___Audio_Accessories ;
+    skos:prefLabel "Binaural Headset"@en .
+
+taxa:Electronics_Headsets_Binaural_Black_Ear_Headset a skos:Concept ;
+    taxa:clusterID 113 ;
+    taxa:coherenceScore 5.199e-01 ;
+    skos:broader taxa:Electronics_Headsets ;
+    skos:prefLabel "Binaural Black Ear Headset"@en .
+
+taxa:Electronics_Home_Audio___Video_Ceiling_Speakers a skos:Concept ;
+    taxa:clusterID 173 ;
+    taxa:coherenceScore 1.754e-01 ;
+    skos:broader taxa:Electronics_Home_Audio___Video ;
+    skos:prefLabel "Ceiling Speakers"@en .
+
+taxa:Electronics_Home_Entertainment_Systems_Audio_Receivers a skos:Concept ;
+    taxa:clusterID 123 ;
+    taxa:coherenceScore 4.59e-01 ;
+    skos:broader taxa:Electronics_Home_Entertainment_Systems ;
+    skos:prefLabel "Audio Receivers"@en .
+
+taxa:Electronics_Laptops___Notebooks_Laptop_Models a skos:Concept ;
+    taxa:clusterID 299 ;
+    taxa:coherenceScore 4.4e-01 ;
+    skos:broader taxa:Electronics_Laptops___Notebooks ;
+    skos:prefLabel "Laptop Models"@en .
+
+taxa:Electronics_MP3_MP4_Players___Player_Accessories a skos:Concept ;
+    taxa:clusterID 43 ;
+    taxa:coherenceScore 7.131e-01 ;
+    skos:broader taxa:Electronics_MP3_MP4_Players ;
+    skos:prefLabel "/ Player Accessories"@en .
+
+taxa:Electronics_Mobile_Accessories_Chargers a skos:Concept ;
+    taxa:clusterID 296 ;
+    taxa:coherenceScore 3.156e-01 ;
+    skos:broader taxa:Electronics_Mobile_Accessories ;
+    skos:prefLabel "Chargers"@en .
+
+taxa:Electronics_Mobile_Accessories_Phone_Holders a skos:Concept ;
+    taxa:clusterID 82 ;
+    taxa:coherenceScore 5.309e-01 ;
+    skos:broader taxa:Electronics_Mobile_Accessories ;
+    skos:prefLabel "Phone Holders"@en .
+
+taxa:Electronics_Mobile_Devices_Accessories a skos:Concept ;
+    taxa:clusterID 406 ;
+    taxa:coherenceScore 4.741e-01 ;
+    skos:broader taxa:Electronics_Mobile_Devices ;
+    skos:prefLabel "Accessories"@en .
+
+taxa:Electronics_Mobile_Phones___Accessories_Cables___Adapters a skos:Concept ;
+    taxa:clusterID 174 ;
+    taxa:coherenceScore 4.025e-01 ;
+    skos:broader taxa:Electronics_Mobile_Phones___Accessories ;
+    skos:prefLabel "Cables & Adapters"@en .
+
+taxa:Electronics_Mobile_Phones___Accessories_Cases___Covers a skos:Concept ;
+    taxa:clusterID 94 ;
+    taxa:coherenceScore 5.151e-01 ;
+    skos:broader taxa:Electronics_Mobile_Phones___Accessories ;
+    skos:prefLabel "Cases & Covers"@en .
+
+taxa:Electronics_Mobile_Phones___Accessories_Spare_Parts a skos:Concept ;
+    taxa:clusterID 321 ;
+    taxa:coherenceScore 4.656e-01 ;
+    skos:broader taxa:Electronics_Mobile_Phones___Accessories ;
+    skos:prefLabel "Spare Parts"@en .
+
+taxa:Electronics_Mobile_Phones___Tablets_SIM_Cards a skos:Concept ;
+    taxa:clusterID 149 ;
+    taxa:coherenceScore 2.283e-01 ;
+    skos:broader taxa:Electronics_Mobile_Phones___Tablets ;
+    skos:prefLabel "SIM Cards"@en .
+
+taxa:Electronics_Monitors_Black_2560_x_1440_Pixels_58_4_cm_Touchscreen_All_in_One_PC a skos:Concept ;
+    taxa:clusterID 180 ;
+    taxa:coherenceScore 5.182e-01 ;
+    skos:broader taxa:Electronics_Monitors ;
+    skos:prefLabel "Black 2560 x 1440 Pixels 58.4 cm Touchscreen All-in-One PC"@en .
+
+taxa:Electronics_Monitors_Desktop_Monitors a skos:Concept ;
+    taxa:clusterID 367 ;
+    taxa:coherenceScore 2.129e-01 ;
+    skos:broader taxa:Electronics_Monitors ;
+    skos:prefLabel "Desktop Monitors"@en .
+
+taxa:Electronics_Monitors_Privacy_Filters a skos:Concept ;
+    taxa:clusterID 235 ;
+    taxa:coherenceScore 6.535e-01 ;
+    skos:broader taxa:Electronics_Monitors ;
+    skos:prefLabel "Privacy Filters"@en .
+
+taxa:Electronics_Monitors_Touch_Screen_Monitor a skos:Concept ;
+    taxa:clusterID 16 ;
+    taxa:coherenceScore 3.504e-01 ;
+    skos:broader taxa:Electronics_Monitors ;
+    skos:prefLabel "Touch Screen Monitor"@en .
+
+taxa:Electronics_Mounting_Kits_Mounting_Kit a skos:Concept ;
+    taxa:clusterID 264 ;
+    taxa:coherenceScore 6.292e-01 ;
+    skos:broader taxa:Electronics_Mounting_Kits ;
+    skos:prefLabel "Mounting Kit"@en .
+
+taxa:Electronics_Navigation_Devices_GPS_Nav_Systems a skos:Concept ;
+    taxa:clusterID 158 ;
+    taxa:coherenceScore 2.689e-01 ;
+    skos:broader taxa:Electronics_Navigation_Devices ;
+    skos:prefLabel "GPS Nav Systems"@en .
+
+taxa:Electronics_Network_Adapters_Cellular___Wireless_Equipment a skos:Concept ;
+    taxa:clusterID 326 ;
+    taxa:coherenceScore 5.802e-01 ;
+    skos:broader taxa:Electronics_Network_Adapters ;
+    skos:prefLabel "Cellular & Wireless Equipment"@en .
+
+taxa:Electronics_Network_Equipment_Firewalls a skos:Concept ;
+    taxa:clusterID 256 ;
+    taxa:coherenceScore 5.899e-01 ;
+    skos:broader taxa:Electronics_Network_Equipment ;
+    skos:prefLabel "Firewalls"@en .
+
+taxa:Electronics_Networking_Equipment_Cellular_Network_Equipment a skos:Concept ;
+    taxa:clusterID 218 ;
+    taxa:coherenceScore 4.863e-01 ;
+    skos:broader taxa:Electronics_Networking_Equipment ;
+    skos:prefLabel "Cellular Network Equipment"@en .
+
+taxa:Electronics_Networking_Equipment_Ethernet_Adapters a skos:Concept ;
+    taxa:clusterID 33 ;
+    taxa:coherenceScore 4.816e-01 ;
+    skos:broader taxa:Electronics_Networking_Equipment ;
+    skos:prefLabel "Ethernet Adapters"@en .
+
+taxa:Electronics_Networking_Equipment_Fiber_Optic_Transceivers a skos:Concept ;
+    taxa:clusterID 54 ;
+    taxa:coherenceScore 3.027e-01 ;
+    skos:broader taxa:Electronics_Networking_Equipment ;
+    skos:prefLabel "Fiber Optic Transceivers"@en .
+
+taxa:Electronics_Networking_Equipment_Gateways___Routers a skos:Concept ;
+    taxa:clusterID 124 ;
+    taxa:coherenceScore 3.927e-01 ;
+    skos:broader taxa:Electronics_Networking_Equipment ;
+    skos:prefLabel "Gateways & Routers"@en .
+
+taxa:Electronics_Networking_Equipment_KVM_Switches a skos:Concept ;
+    taxa:clusterID 22 ;
+    taxa:coherenceScore 2.865e-01 ;
+    skos:broader taxa:Electronics_Networking_Equipment ;
+    skos:prefLabel "KVM Switches"@en .
+
+taxa:Electronics_Networking_Equipment_Modems___Routers a skos:Concept ;
+    taxa:clusterID 291 ;
+    taxa:coherenceScore 2.803e-01 ;
+    skos:broader taxa:Electronics_Networking_Equipment ;
+    skos:prefLabel "Modems & Routers"@en .
+
+taxa:Electronics_Networking_Equipment_Network_Adapters a skos:Concept ;
+    taxa:clusterID 285 ;
+    taxa:coherenceScore 3.559e-01 ;
+    skos:broader taxa:Electronics_Networking_Equipment ;
+    skos:prefLabel "Network Adapters"@en .
+
+taxa:Electronics_Networking_Equipment_Network_Cards a skos:Concept ;
+    taxa:clusterID 314 ;
+    taxa:coherenceScore 5.497e-01 ;
+    skos:broader taxa:Electronics_Networking_Equipment ;
+    skos:prefLabel "Network Cards"@en .
+
+taxa:Electronics_Networking_Equipment_Network_Controllers a skos:Concept ;
+    taxa:clusterID 178 ;
+    taxa:coherenceScore 2.636e-01 ;
+    skos:broader taxa:Electronics_Networking_Equipment ;
+    skos:prefLabel "Network Controllers"@en .
+
+taxa:Electronics_Networking_Equipment_Network_Switches a skos:Concept ;
+    taxa:clusterID 222 ;
+    taxa:coherenceScore 3.181e-01 ;
+    skos:broader taxa:Electronics_Networking_Equipment ;
+    skos:prefLabel "Network Switches"@en .
+
+taxa:Electronics_Networking_Equipment_Routers a skos:Concept ;
+    taxa:clusterID 177 ;
+    taxa:coherenceScore 4.708e-01 ;
+    skos:broader taxa:Electronics_Networking_Equipment ;
+    skos:prefLabel "Routers"@en .
+
+taxa:Electronics_Networking___Connectivity_Cables___Connectors a skos:Concept ;
+    taxa:clusterID 25 ;
+    taxa:coherenceScore 4.281e-01 ;
+    skos:broader taxa:Electronics_Networking___Connectivity ;
+    skos:prefLabel "Cables & Connectors"@en .
+
+taxa:Electronics_Networking___Connectivity_Fiber_Optic_Cables a skos:Concept ;
+    taxa:clusterID 24 ;
+    taxa:coherenceScore 4.428e-01 ;
+    skos:broader taxa:Electronics_Networking___Connectivity ;
+    skos:prefLabel "Fiber Optic Cables"@en .
+
+taxa:Electronics_Networking___Connectivity_USB_Adapters a skos:Concept ;
+    taxa:clusterID 67 ;
+    taxa:coherenceScore 5.225e-01 ;
+    skos:broader taxa:Electronics_Networking___Connectivity ;
+    skos:prefLabel "USB Adapters"@en .
+
+taxa:Electronics_Networking___Connectivity_Wireless_Devices a skos:Concept ;
+    taxa:clusterID 20 ;
+    taxa:coherenceScore 3.316e-01 ;
+    skos:broader taxa:Electronics_Networking___Connectivity ;
+    skos:prefLabel "Wireless Devices"@en .
+
+taxa:Electronics_Notebook_Accessories_Power_Tips a skos:Concept ;
+    taxa:clusterID 115 ;
+    taxa:coherenceScore 5.853e-01 ;
+    skos:broader taxa:Electronics_Notebook_Accessories ;
+    skos:prefLabel "Power Tips"@en .
+
+taxa:Electronics_Optical_Disc_Drives_DVD_Drive a skos:Concept ;
+    taxa:clusterID 41 ;
+    taxa:coherenceScore 6.446e-01 ;
+    skos:broader taxa:Electronics_Optical_Disc_Drives ;
+    skos:prefLabel "DVD Drive"@en .
+
+taxa:Electronics_Phone_Accessories_Protective_Cases a skos:Concept ;
+    taxa:clusterID 295 ;
+    taxa:coherenceScore 4.105e-01 ;
+    skos:broader taxa:Electronics_Phone_Accessories ;
+    skos:prefLabel "Protective Cases"@en .
+
+taxa:Electronics_Portable_DVD_Players_Portable_DVD_Players_Products a skos:Concept ;
+    taxa:clusterID 76 ;
+    taxa:coherenceScore 6.379e-01 ;
+    skos:broader taxa:Electronics_Portable_DVD_Players ;
+    skos:prefLabel "Portable DVD Players Products"@en .
+
+taxa:Electronics_Power_Accessories_AC_Adapters a skos:Concept ;
+    taxa:clusterID 403 ;
+    taxa:coherenceScore 5.358e-01 ;
+    skos:broader taxa:Electronics_Power_Accessories ;
+    skos:prefLabel "AC Adapters"@en .
+
+taxa:Electronics_Power_Accessories_Charging_Adapters a skos:Concept ;
+    taxa:clusterID 137 ;
+    taxa:coherenceScore 4.961e-01 ;
+    skos:broader taxa:Electronics_Power_Accessories ;
+    skos:prefLabel "Charging Adapters"@en .
+
+taxa:Electronics_Power_Banks_Charging_Devices a skos:Concept ;
+    taxa:clusterID 184 ;
+    taxa:coherenceScore 4.718e-01 ;
+    skos:broader taxa:Electronics_Power_Banks ;
+    skos:prefLabel "Charging Devices"@en .
+
+taxa:Electronics_Power_Distribution_Units_PDU a skos:Concept ;
+    taxa:clusterID 3 ;
+    taxa:coherenceScore 5.729e-01 ;
+    skos:broader taxa:Electronics_Power_Distribution_Units ;
+    skos:prefLabel "PDU"@en .
+
+taxa:Electronics_Power_Management_Battery_Packs a skos:Concept ;
+    taxa:clusterID 151 ;
+    taxa:coherenceScore 5.668e-01 ;
+    skos:broader taxa:Electronics_Power_Management ;
+    skos:prefLabel "Battery Packs"@en .
+
+taxa:Electronics_Power_Management_Equipment_Power_Distribution_Units a skos:Concept ;
+    taxa:clusterID 310 ;
+    taxa:coherenceScore 4.228e-01 ;
+    skos:broader taxa:Electronics_Power_Management_Equipment ;
+    skos:prefLabel "Power Distribution Units"@en .
+
+taxa:Electronics_Power_Management_Rack_PDU_Accessories a skos:Concept ;
+    taxa:clusterID 163 ;
+    taxa:coherenceScore 6.647e-01 ;
+    skos:broader taxa:Electronics_Power_Management ;
+    skos:prefLabel "Rack PDU Accessories"@en .
+
+taxa:Electronics_Power_Management_Uninterruptible_Power_Supplies a skos:Concept ;
+    taxa:clusterID 280 ;
+    taxa:coherenceScore 3.53e-01 ;
+    skos:broader taxa:Electronics_Power_Management ;
+    skos:prefLabel "Uninterruptible Power Supplies"@en .
+
+taxa:Electronics_Power_Stations_Portable_Power_Stations a skos:Concept ;
+    taxa:clusterID 410 ;
+    taxa:coherenceScore 1.806e-01 ;
+    skos:broader taxa:Electronics_Power_Stations ;
+    skos:prefLabel "Portable Power Stations"@en .
+
+taxa:Electronics_Power_Strips___Surge_Protectors_Power_Distribution_Units a skos:Concept ;
+    taxa:clusterID 125 ;
+    taxa:coherenceScore 5.144e-01 ;
+    skos:broader taxa:Electronics_Power_Strips___Surge_Protectors ;
+    skos:prefLabel "Power Distribution Units"@en .
+
+taxa:Electronics_Power_Supplies_Adapters a skos:Concept ;
+    taxa:clusterID 126 ;
+    taxa:coherenceScore 4.852e-01 ;
+    skos:broader taxa:Electronics_Power_Supplies ;
+    skos:prefLabel "Adapters"@en .
+
+taxa:Electronics_Power_Supplies_Battery_Chargers a skos:Concept ;
+    taxa:clusterID 329 ;
+    taxa:coherenceScore 4.493e-01 ;
+    skos:broader taxa:Electronics_Power_Supplies ;
+    skos:prefLabel "Battery Chargers"@en .
+
+taxa:Electronics_Power_Supplies_Power_Distribution_Units a skos:Concept ;
+    taxa:clusterID 88 ;
+    taxa:coherenceScore 4.835e-01 ;
+    skos:broader taxa:Electronics_Power_Supplies ;
+    skos:prefLabel "Power Distribution Units"@en .
+
+taxa:Electronics_Power_Supplies_Power_Supply a skos:Concept ;
+    taxa:clusterID 391 ;
+    taxa:coherenceScore 4.842e-01 ;
+    skos:broader taxa:Electronics_Power_Supplies ;
+    skos:prefLabel "Power Supply"@en .
+
+taxa:Electronics_Power_Supplies_Power_Supply_Units a skos:Concept ;
+    taxa:clusterID 11 ;
+    taxa:coherenceScore 5.514e-01 ;
+    skos:broader taxa:Electronics_Power_Supplies ;
+    skos:prefLabel "Power Supply Units"@en .
+
+taxa:Electronics_Power_Supplies_UPS_and_Battery_Chargers a skos:Concept ;
+    taxa:clusterID 48 ;
+    taxa:coherenceScore 4.105e-01 ;
+    skos:broader taxa:Electronics_Power_Supplies ;
+    skos:prefLabel "UPS and Battery Chargers"@en .
+
+taxa:Electronics_Printer_Accessories_Service___Support a skos:Concept ;
+    taxa:clusterID 132 ;
+    taxa:coherenceScore 5.766e-01 ;
+    skos:broader taxa:Electronics_Printer_Accessories ;
+    skos:prefLabel "Service & Support"@en .
+
+taxa:Electronics_Printers___Scanners_Printers a skos:Concept ;
+    taxa:clusterID 385 ;
+    taxa:coherenceScore 4.948e-01 ;
+    skos:broader taxa:Electronics_Printers___Scanners ;
+    skos:prefLabel "Printers"@en .
+
+taxa:Electronics_Privacy_Filters_DisplayPrivacyFilters a skos:Concept ;
+    taxa:clusterID 279 ;
+    taxa:coherenceScore 5.554e-01 ;
+    skos:broader taxa:Electronics_Privacy_Filters ;
+    skos:prefLabel "DisplayPrivacyFilters"@en .
+
+taxa:Electronics_Projectors_Data_Projectors a skos:Concept ;
+    taxa:clusterID 378 ;
+    taxa:coherenceScore 5.845e-01 ;
+    skos:broader taxa:Electronics_Projectors ;
+    skos:prefLabel "Data Projectors"@en .
+
+taxa:Electronics_Projectors_Projector_Accessories a skos:Concept ;
+    taxa:clusterID 199 ;
+    taxa:coherenceScore 6.941e-01 ;
+    skos:broader taxa:Electronics_Projectors ;
+    skos:prefLabel "Projector Accessories"@en .
+
+taxa:Electronics_Projectors___Displays_Projection_Lenses a skos:Concept ;
+    taxa:clusterID 75 ;
+    taxa:coherenceScore 4.064e-01 ;
+    skos:broader taxa:Electronics_Projectors___Displays ;
+    skos:prefLabel "Projection Lenses"@en .
+
+taxa:Electronics_Projectors___Displays_Projection_Screens a skos:Concept ;
+    taxa:clusterID 74 ;
+    taxa:coherenceScore 6.043e-01 ;
+    skos:broader taxa:Electronics_Projectors___Displays ;
+    skos:prefLabel "Projection Screens"@en .
+
+taxa:Electronics_Projectors___Displays_Projectors a skos:Concept ;
+    taxa:clusterID 64 ;
+    taxa:coherenceScore 4.744e-01 ;
+    skos:broader taxa:Electronics_Projectors___Displays ;
+    skos:prefLabel "Projectors"@en .
+
+taxa:Electronics_Projectors___Displays_Replacement_Parts a skos:Concept ;
+    taxa:clusterID 244 ;
+    taxa:coherenceScore 4.369e-01 ;
+    skos:broader taxa:Electronics_Projectors___Displays ;
+    skos:prefLabel "Replacement Parts"@en .
+
+taxa:Electronics_Reading_Devices_E_Book_Readers a skos:Concept ;
+    taxa:clusterID 308 ;
+    taxa:coherenceScore 5.597e-01 ;
+    skos:broader taxa:Electronics_Reading_Devices ;
+    skos:prefLabel "E-Book Readers"@en .
+
+taxa:Electronics_Rechargeable_Batteries_Battery_Chargers a skos:Concept ;
+    taxa:clusterID 404 ;
+    taxa:coherenceScore 3.923e-01 ;
+    skos:broader taxa:Electronics_Rechargeable_Batteries ;
+    skos:prefLabel "Battery Chargers"@en .
+
+taxa:Electronics_Rechargeable_Batteries_Li_Ion_Rechargeable_Batteries a skos:Concept ;
+    taxa:clusterID 207 ;
+    taxa:coherenceScore 3.084e-01 ;
+    skos:broader taxa:Electronics_Rechargeable_Batteries ;
+    skos:prefLabel "Li-Ion Rechargeable Batteries"@en .
+
+taxa:Electronics_Remote_Controls_Presenter_RF_Wireless_Remote_Control a skos:Concept ;
+    taxa:clusterID 246 ;
+    taxa:coherenceScore 6.104e-01 ;
+    skos:broader taxa:Electronics_Remote_Controls ;
+    skos:prefLabel "Presenter RF Wireless Remote Control"@en .
+
+taxa:Electronics_Remote_Controls_Wireless_Remote_Controls a skos:Concept ;
+    taxa:clusterID 35 ;
+    taxa:coherenceScore 5.744e-01 ;
+    skos:broader taxa:Electronics_Remote_Controls ;
+    skos:prefLabel "Wireless Remote Controls"@en .
+
+taxa:Electronics_Screen_Protectors_Mobile_Screen_Protectors a skos:Concept ;
+    taxa:clusterID 31 ;
+    taxa:coherenceScore 3.919e-01 ;
+    skos:broader taxa:Electronics_Screen_Protectors ;
+    skos:prefLabel "Mobile Screen Protectors"@en .
+
+taxa:Electronics_Signage_Displays_HD_Signage a skos:Concept ;
+    taxa:clusterID 28 ;
+    taxa:coherenceScore 3.301e-01 ;
+    skos:broader taxa:Electronics_Signage_Displays ;
+    skos:prefLabel "HD Signage"@en .
+
+taxa:Electronics_Smart_TVs_Black_HD_TV a skos:Concept ;
+    taxa:clusterID 373 ;
+    taxa:coherenceScore 6.103e-01 ;
+    skos:broader taxa:Electronics_Smart_TVs ;
+    skos:prefLabel "Black HD TV"@en .
+
+taxa:Electronics_Smartphones_iPhones a skos:Concept ;
+    taxa:clusterID 213 ;
+    taxa:coherenceScore 4.18e-01 ;
+    skos:broader taxa:Electronics_Smartphones ;
+    skos:prefLabel "iPhones"@en .
+
+taxa:Electronics_Smartwatches_Accessories a skos:Concept ;
+    taxa:clusterID 61 ;
+    taxa:coherenceScore 5.607e-01 ;
+    skos:broader taxa:Electronics_Smartwatches ;
+    skos:prefLabel "Accessories"@en .
+
+taxa:Electronics_Smartwatches_Smartwatch a skos:Concept ;
+    taxa:clusterID 170 ;
+    taxa:coherenceScore 4.824e-01 ;
+    skos:broader taxa:Electronics_Smartwatches ;
+    skos:prefLabel "Smartwatch"@en .
+
+taxa:Electronics_Spare_Parts_Mobile_Phone_Spare_Parts a skos:Concept ;
+    taxa:clusterID 133 ;
+    taxa:coherenceScore 6.057e-01 ;
+    skos:broader taxa:Electronics_Spare_Parts ;
+    skos:prefLabel "Mobile Phone Spare Parts"@en .
+
+taxa:Electronics_Speakers_Black_2_0_Channels_Speaker a skos:Concept ;
+    taxa:clusterID 72 ;
+    taxa:coherenceScore 5.333e-01 ;
+    skos:broader taxa:Electronics_Speakers ;
+    skos:prefLabel "Black 2.0 Channels Speaker"@en .
+
+taxa:Electronics_Storage_Devices_CDs___Discs a skos:Concept ;
+    taxa:clusterID 400 ;
+    taxa:coherenceScore 5.525e-01 ;
+    skos:broader taxa:Electronics_Storage_Devices ;
+    skos:prefLabel "CDs & Discs"@en .
+
+taxa:Electronics_Storage_Devices_DVD_Players a skos:Concept ;
+    taxa:clusterID 70 ;
+    taxa:coherenceScore 5.263e-01 ;
+    skos:broader taxa:Electronics_Storage_Devices ;
+    skos:prefLabel "DVD Players"@en .
+
+taxa:Electronics_Storage_Devices_Disk_Drives a skos:Concept ;
+    taxa:clusterID 224 ;
+    taxa:coherenceScore 3.547e-01 ;
+    skos:broader taxa:Electronics_Storage_Devices ;
+    skos:prefLabel "Disk Drives"@en .
+
+taxa:Electronics_Storage_Devices_External_Hard_Drives a skos:Concept ;
+    taxa:clusterID 78 ;
+    taxa:coherenceScore 4.358e-01 ;
+    skos:broader taxa:Electronics_Storage_Devices ;
+    skos:prefLabel "External Hard Drives"@en .
+
+taxa:Electronics_Storage_Devices_Flash_Drives a skos:Concept ;
+    taxa:clusterID 42 ;
+    taxa:coherenceScore 3.995e-01 ;
+    skos:broader taxa:Electronics_Storage_Devices ;
+    skos:prefLabel "Flash Drives"@en .
+
+taxa:Electronics_Storage_Devices_Hard_Drives a skos:Concept ;
+    taxa:clusterID 131 ;
+    taxa:coherenceScore 3.494e-01 ;
+    skos:broader taxa:Electronics_Storage_Devices ;
+    skos:prefLabel "Hard Drives"@en .
+
+taxa:Electronics_Storage_Devices_Internal_Hard_Drives a skos:Concept ;
+    taxa:clusterID 109 ;
+    taxa:coherenceScore 4.398e-01 ;
+    skos:broader taxa:Electronics_Storage_Devices ;
+    skos:prefLabel "Internal Hard Drives"@en .
+
+taxa:Electronics_Storage_Devices_Internal_SSDs a skos:Concept ;
+    taxa:clusterID 240 ;
+    taxa:coherenceScore 5.39e-01 ;
+    skos:broader taxa:Electronics_Storage_Devices ;
+    skos:prefLabel "Internal SSDs"@en .
+
+taxa:Electronics_Storage_Devices_Internal_Solid_State_Drives a skos:Concept ;
+    taxa:clusterID 239 ;
+    taxa:coherenceScore 5.921e-01 ;
+    skos:broader taxa:Electronics_Storage_Devices ;
+    skos:prefLabel "Internal Solid State Drives"@en .
+
+taxa:Electronics_Storage_Devices_LTO_Tapes a skos:Concept ;
+    taxa:clusterID 143 ;
+    taxa:coherenceScore 4.805e-01 ;
+    skos:broader taxa:Electronics_Storage_Devices ;
+    skos:prefLabel "LTO Tapes"@en .
+
+taxa:Electronics_Storage_Devices_Memory_Cards a skos:Concept ;
+    taxa:clusterID 219 ;
+    taxa:coherenceScore 5.948e-01 ;
+    skos:broader taxa:Electronics_Storage_Devices ;
+    skos:prefLabel "Memory Cards"@en .
+
+taxa:Electronics_Storage_Devices_Optical_Disc_Drives a skos:Concept ;
+    taxa:clusterID 0 ;
+    taxa:coherenceScore 6.285e-01 ;
+    skos:broader taxa:Electronics_Storage_Devices ;
+    skos:prefLabel "Optical Disc Drives"@en .
+
+taxa:Electronics_Storage_Devices_Video_Tapes a skos:Concept ;
+    taxa:clusterID 386 ;
+    taxa:coherenceScore 5.642e-01 ;
+    skos:broader taxa:Electronics_Storage_Devices ;
+    skos:prefLabel "Video Tapes"@en .
+
+taxa:Electronics_TV_Antennas_TV_Antenna a skos:Concept ;
+    taxa:clusterID 298 ;
+    taxa:coherenceScore 6.938e-01 ;
+    skos:broader taxa:Electronics_TV_Antennas ;
+    skos:prefLabel "TV Antenna"@en .
+
+taxa:Electronics_TVs___Audio_Black_HD_TV a skos:Concept ;
+    taxa:clusterID 156 ;
+    taxa:coherenceScore 6.112e-01 ;
+    skos:broader taxa:Electronics_TVs___Audio ;
+    skos:prefLabel "Black HD TV"@en .
+
+taxa:Electronics_TVs___Monitors_HD_TV a skos:Concept ;
+    taxa:clusterID 118 ;
+    taxa:coherenceScore 4.712e-01 ;
+    skos:broader taxa:Electronics_TVs___Monitors ;
+    skos:prefLabel "HD TV"@en .
+
+taxa:Electronics_Tablets___Tablet_Accessories_Touch_Panels a skos:Concept ;
+    taxa:clusterID 210 ;
+    taxa:coherenceScore 5.933e-01 ;
+    skos:broader taxa:Electronics_Tablets___Tablet_Accessories ;
+    skos:prefLabel "Touch Panels"@en .
+
+taxa:Electronics_Telephones_DECT_Telephone_Black_Caller_ID a skos:Concept ;
+    taxa:clusterID 402 ;
+    taxa:coherenceScore 7.759e-01 ;
+    skos:broader taxa:Electronics_Telephones ;
+    skos:prefLabel "DECT Telephone Black Caller ID"@en .
+
+taxa:Electronics_Telephones_WeCall_Bluetooth_conference_speaker_AECS7000E_00 a skos:Concept ;
+    taxa:clusterID 363 ;
+    taxa:coherenceScore 7.591e-01 ;
+    skos:broader taxa:Electronics_Telephones ;
+    skos:prefLabel "WeCall Bluetooth conference speaker AECS7000E/00"@en .
+
+taxa:Electronics_Video_Conferencing_Equipment_Audio_Visual_Extenders a skos:Concept ;
+    taxa:clusterID 130 ;
+    taxa:coherenceScore 5.132e-01 ;
+    skos:broader taxa:Electronics_Video_Conferencing_Equipment ;
+    skos:prefLabel "Audio Visual Extenders"@en .
+
+taxa:Electronics_Video___Audio_Equipment_Connectivity_Cables___Adapters a skos:Concept ;
+    taxa:clusterID 334 ;
+    taxa:coherenceScore 4.539e-01 ;
+    skos:broader taxa:Electronics_Video___Audio_Equipment ;
+    skos:prefLabel "Connectivity Cables & Adapters"@en .
+
+taxa:Electronics_Video___Audio_Equipment_Converters___Adapters a skos:Concept ;
+    taxa:clusterID 277 ;
+    taxa:coherenceScore 5.231e-01 ;
+    skos:broader taxa:Electronics_Video___Audio_Equipment ;
+    skos:prefLabel "Converters & Adapters"@en .
+
+taxa:Electronics_Warranty_Services_QNAP_TS_Warranty a skos:Concept ;
+    taxa:clusterID 393 ;
+    taxa:coherenceScore 7.412e-01 ;
+    skos:broader taxa:Electronics_Warranty_Services ;
+    skos:prefLabel "QNAP TS Warranty"@en .
+
+taxa:Electronics_Wearable_Devices_Smartwatches a skos:Concept ;
+    taxa:clusterID 100 ;
+    taxa:coherenceScore 9.32e-02 ;
+    skos:broader taxa:Electronics_Wearable_Devices ;
+    skos:prefLabel "Smartwatches"@en .
+
+taxa:Electronics_Wearable_Technology_Fitness_Watches a skos:Concept ;
+    taxa:clusterID 351 ;
+    taxa:coherenceScore 4.922e-01 ;
+    skos:broader taxa:Electronics_Wearable_Technology ;
+    skos:prefLabel "Fitness Watches"@en .
+
+taxa:Electronics_Wristbands_Armbands a skos:Concept ;
+    taxa:clusterID 226 ;
+    taxa:coherenceScore 3.833e-01 ;
+    skos:broader taxa:Electronics_Wristbands ;
+    skos:prefLabel "Armbands"@en .
+
+taxa:Home___Office_Wiring___Storage_Cable_Protectors a skos:Concept ;
+    taxa:clusterID 9 ;
+    taxa:coherenceScore 4.837e-01 ;
+    skos:broader taxa:Home___Office_Wiring___Storage ;
+    skos:prefLabel "Cable Protectors"@en .
+
+taxa:Office_Supplies_Accessories_Phone_Cases a skos:Concept ;
+    taxa:clusterID 40 ;
+    taxa:coherenceScore 4.859e-01 ;
+    skos:broader taxa:Office_Supplies_Accessories ;
+    skos:prefLabel "Phone Cases"@en .
+
+taxa:Office_Supplies_Binding___Cover_Materials_Book_Covers a skos:Concept ;
+    taxa:clusterID 331 ;
+    taxa:coherenceScore 3.217e-01 ;
+    skos:broader taxa:Office_Supplies_Binding___Cover_Materials ;
+    skos:prefLabel "Book Covers"@en .
+
+taxa:Office_Supplies_Binding___Packaging_Envelopes___Mailing_Supplies a skos:Concept ;
+    taxa:clusterID 155 ;
+    taxa:coherenceScore 3.52e-01 ;
+    skos:broader taxa:Office_Supplies_Binding___Packaging ;
+    skos:prefLabel "Envelopes & Mailing Supplies"@en .
+
+taxa:Office_Supplies_Binding___Presentation_Lamination_Film a skos:Concept ;
+    taxa:clusterID 260 ;
+    taxa:coherenceScore 5.178e-01 ;
+    skos:broader taxa:Office_Supplies_Binding___Presentation ;
+    skos:prefLabel "Lamination Film"@en .
+
+taxa:Office_Supplies_Binding___Storage_Book_Cases a skos:Concept ;
+    taxa:clusterID 318 ;
+    taxa:coherenceScore 5.305e-01 ;
+    skos:broader taxa:Office_Supplies_Binding___Storage ;
+    skos:prefLabel "Book Cases"@en .
+
+taxa:Office_Supplies_Binding___Storage_Disc_Cases a skos:Concept ;
+    taxa:clusterID 275 ;
+    taxa:coherenceScore 4.953e-01 ;
+    skos:broader taxa:Office_Supplies_Binding___Storage ;
+    skos:prefLabel "Disc Cases"@en .
+
+taxa:Office_Supplies_Cabinets_Server_Rack_Cabinets a skos:Concept ;
+    taxa:clusterID 58 ;
+    taxa:coherenceScore 1.353e-01 ;
+    skos:broader taxa:Office_Supplies_Cabinets ;
+    skos:prefLabel "Server Rack Cabinets"@en .
+
+taxa:Office_Supplies_Calculators_Financial_Calculators a skos:Concept ;
+    taxa:clusterID 396 ;
+    taxa:coherenceScore 5.735e-01 ;
+    skos:broader taxa:Office_Supplies_Calculators ;
+    skos:prefLabel "Financial Calculators"@en .
+
+taxa:Office_Supplies_Calculators_Pocket_Calculators a skos:Concept ;
+    taxa:clusterID 105 ;
+    taxa:coherenceScore 5.101e-01 ;
+    skos:broader taxa:Office_Supplies_Calculators ;
+    skos:prefLabel "Pocket Calculators"@en .
+
+taxa:Office_Supplies_Cases___Covers_Phone_Case a skos:Concept ;
+    taxa:clusterID 249 ;
+    taxa:coherenceScore 4.943e-01 ;
+    skos:broader taxa:Office_Supplies_Cases___Covers ;
+    skos:prefLabel "Phone Case"@en .
+
+taxa:Office_Supplies_Cases___Covers_Projection_Screen_Cases a skos:Concept ;
+    taxa:clusterID 166 ;
+    taxa:coherenceScore 4.836e-01 ;
+    skos:broader taxa:Office_Supplies_Cases___Covers ;
+    skos:prefLabel "Projection Screen Cases"@en .
+
+taxa:Office_Supplies_Data_Storage_Tape_Cartridges a skos:Concept ;
+    taxa:clusterID 114 ;
+    taxa:coherenceScore 5.008e-01 ;
+    skos:broader taxa:Office_Supplies_Data_Storage ;
+    skos:prefLabel "Tape Cartridges"@en .
+
+taxa:Office_Supplies_Desks___Accessories_Monitor_Mounts a skos:Concept ;
+    taxa:clusterID 84 ;
+    taxa:coherenceScore 3.814e-01 ;
+    skos:broader taxa:Office_Supplies_Desks___Accessories ;
+    skos:prefLabel "Monitor Mounts"@en .
+
+taxa:Office_Supplies_Ergonomic_Accessories_Wrist_Rests a skos:Concept ;
+    taxa:clusterID 179 ;
+    taxa:coherenceScore 2.741e-01 ;
+    skos:broader taxa:Office_Supplies_Ergonomic_Accessories ;
+    skos:prefLabel "Wrist Rests"@en .
+
+taxa:Office_Supplies_Ergonomic_Furniture_Seating a skos:Concept ;
+    taxa:clusterID 119 ;
+    taxa:coherenceScore 1.284e-01 ;
+    skos:broader taxa:Office_Supplies_Ergonomic_Furniture ;
+    skos:prefLabel "Seating"@en .
+
+taxa:Office_Supplies_Filters_Air_Filters a skos:Concept ;
+    taxa:clusterID 371 ;
+    taxa:coherenceScore 4.855e-01 ;
+    skos:broader taxa:Office_Supplies_Filters ;
+    skos:prefLabel "Air Filters"@en .
+
+taxa:Office_Supplies_Hardware_Junction_Boxes a skos:Concept ;
+    taxa:clusterID 50 ;
+    taxa:coherenceScore 3.844e-01 ;
+    skos:broader taxa:Office_Supplies_Hardware ;
+    skos:prefLabel "Junction Boxes"@en .
+
+taxa:Office_Supplies_Ink___Toner_Cartridges_EFA_6885 a skos:Concept ;
+    taxa:clusterID 362 ;
+    taxa:coherenceScore 3.072e-01 ;
+    skos:broader taxa:Office_Supplies_Ink___Toner_Cartridges ;
+    skos:prefLabel "EFA 6885"@en .
+
+taxa:Office_Supplies_Ink___Toner_Cartridges_Lenses a skos:Concept ;
+    taxa:clusterID 182 ;
+    taxa:coherenceScore 2.53e-01 ;
+    skos:broader taxa:Office_Supplies_Ink___Toner_Cartridges ;
+    skos:prefLabel "Lenses"@en .
+
+taxa:Office_Supplies_Inkjet_Printers_Printer a skos:Concept ;
+    taxa:clusterID 23 ;
+    taxa:coherenceScore 4.971e-01 ;
+    skos:broader taxa:Office_Supplies_Inkjet_Printers ;
+    skos:prefLabel "Printer"@en .
+
+taxa:Office_Supplies_Inkjet_Printers_Products a skos:Concept ;
+    taxa:clusterID 139 ;
+    taxa:coherenceScore 4.822e-01 ;
+    skos:broader taxa:Office_Supplies_Inkjet_Printers ;
+    skos:prefLabel "Products"@en .
+
+taxa:Office_Supplies_Labeling_Supplies_Labels a skos:Concept ;
+    taxa:clusterID 225 ;
+    taxa:coherenceScore 6.153e-01 ;
+    skos:broader taxa:Office_Supplies_Labeling_Supplies ;
+    skos:prefLabel "Labels"@en .
+
+taxa:Office_Supplies_Laminating___Labeling_Equipment_Label_Making_Tape a skos:Concept ;
+    taxa:clusterID 117 ;
+    taxa:coherenceScore 4.544e-01 ;
+    skos:broader taxa:Office_Supplies_Laminating___Labeling_Equipment ;
+    skos:prefLabel "Label Making Tape"@en .
+
+taxa:Office_Supplies_Monitor_Accessories_Monitor_Mounts a skos:Concept ;
+    taxa:clusterID 181 ;
+    taxa:coherenceScore 4.615e-01 ;
+    skos:broader taxa:Office_Supplies_Monitor_Accessories ;
+    skos:prefLabel "Monitor Mounts"@en .
+
+taxa:Office_Supplies_Mounting_Accessories_Panels a skos:Concept ;
+    taxa:clusterID 26 ;
+    taxa:coherenceScore 3.756e-01 ;
+    skos:broader taxa:Office_Supplies_Mounting_Accessories ;
+    skos:prefLabel "Panels"@en .
+
+taxa:Office_Supplies_Organizers_Phone_Accessories a skos:Concept ;
+    taxa:clusterID 335 ;
+    taxa:coherenceScore 3.89e-01 ;
+    skos:broader taxa:Office_Supplies_Organizers ;
+    skos:prefLabel "Phone Accessories"@en .
+
+taxa:Office_Supplies_Paper___Printing_Supplies_Roll_Paper a skos:Concept ;
+    taxa:clusterID 230 ;
+    taxa:coherenceScore 2.378e-01 ;
+    skos:broader taxa:Office_Supplies_Paper___Printing_Supplies ;
+    skos:prefLabel "Roll Paper"@en .
+
+taxa:Office_Supplies_Photography_Equipment_Lenses_Black____EF a skos:Concept ;
+    taxa:clusterID 80 ;
+    taxa:coherenceScore 4.908e-01 ;
+    skos:broader taxa:Office_Supplies_Photography_Equipment ;
+    skos:prefLabel "Lenses Black, , EF"@en .
+
+taxa:Office_Supplies_Presentation_Equipment_Projection_Screens a skos:Concept ;
+    taxa:clusterID 221 ;
+    taxa:coherenceScore 5.294e-01 ;
+    skos:broader taxa:Office_Supplies_Presentation_Equipment ;
+    skos:prefLabel "Projection Screens"@en .
+
+taxa:Office_Supplies_Presentation_Equipment_Projector_Mounting_Accessories a skos:Concept ;
+    taxa:clusterID 13 ;
+    taxa:coherenceScore 6.598e-01 ;
+    skos:broader taxa:Office_Supplies_Presentation_Equipment ;
+    skos:prefLabel "Projector Mounting Accessories"@en .
+
+taxa:Office_Supplies_Printer_Accessories_Fusers a skos:Concept ;
+    taxa:clusterID 172 ;
+    taxa:coherenceScore 5.729e-01 ;
+    skos:broader taxa:Office_Supplies_Printer_Accessories ;
+    skos:prefLabel "Fusers"@en .
+
+taxa:Office_Supplies_Printer_Accessories_Warranty_and_Support_Extensions a skos:Concept ;
+    taxa:clusterID 197 ;
+    taxa:coherenceScore 5.278e-01 ;
+    skos:broader taxa:Office_Supplies_Printer_Accessories ;
+    skos:prefLabel "Warranty and Support Extensions"@en .
+
+taxa:Office_Supplies_Printer_Scanner_Spare_Parts_Front_panel a skos:Concept ;
+    taxa:clusterID 380 ;
+    taxa:coherenceScore 7.054e-01 ;
+    skos:broader taxa:Office_Supplies_Printer_Scanner_Spare_Parts ;
+    skos:prefLabel "Front panel"@en .
+
+taxa:Office_Supplies_Printer_Services___Support_Next_Business_Day_Service a skos:Concept ;
+    taxa:clusterID 259 ;
+    taxa:coherenceScore 4.344e-01 ;
+    skos:broader taxa:Office_Supplies_Printer_Services___Support ;
+    skos:prefLabel "Next Business Day Service"@en .
+
+taxa:Office_Supplies_Printers_Printer a skos:Concept ;
+    taxa:clusterID 89 ;
+    taxa:coherenceScore 6.203e-01 ;
+    skos:broader taxa:Office_Supplies_Printers ;
+    skos:prefLabel "Printer"@en .
+
+taxa:Office_Supplies_Printers_Printers_Products a skos:Concept ;
+    taxa:clusterID 21 ;
+    taxa:coherenceScore 4.588e-01 ;
+    skos:broader taxa:Office_Supplies_Printers ;
+    skos:prefLabel "Printers Products"@en .
+
+taxa:Office_Supplies_Printers_Xerox a skos:Concept ;
+    taxa:clusterID 4 ;
+    taxa:coherenceScore 3.439e-01 ;
+    skos:broader taxa:Office_Supplies_Printers ;
+    skos:prefLabel "Xerox"@en .
+
+taxa:Office_Supplies_Printers___Scanners_Fax_Machines a skos:Concept ;
+    taxa:clusterID 145 ;
+    taxa:coherenceScore 5.857e-01 ;
+    skos:broader taxa:Office_Supplies_Printers___Scanners ;
+    skos:prefLabel "Fax Machines"@en .
+
+taxa:Office_Supplies_Printers___Scanners_Multifunctional_Printer_Scanner_Spare_Parts a skos:Concept ;
+    taxa:clusterID 382 ;
+    taxa:coherenceScore 6.648e-01 ;
+    skos:broader taxa:Office_Supplies_Printers___Scanners ;
+    skos:prefLabel "Multifunctional Printer/Scanner Spare Parts"@en .
+
+taxa:Office_Supplies_Printers___Scanners_Toner_Cartridges a skos:Concept ;
+    taxa:clusterID 97 ;
+    taxa:coherenceScore 5.61e-02 ;
+    skos:broader taxa:Office_Supplies_Printers___Scanners ;
+    skos:prefLabel "Toner Cartridges"@en .
+
+taxa:Office_Supplies_Printing_Accessories_Rubber_Bands a skos:Concept ;
+    taxa:clusterID 359 ;
+    taxa:coherenceScore 2.859e-01 ;
+    skos:broader taxa:Office_Supplies_Printing_Accessories ;
+    skos:prefLabel "Rubber Bands"@en .
+
+taxa:Office_Supplies_Printing_Equipment_Camera_Accessories a skos:Concept ;
+    taxa:clusterID 214 ;
+    taxa:coherenceScore 2.711e-01 ;
+    skos:broader taxa:Office_Supplies_Printing_Equipment ;
+    skos:prefLabel "Camera Accessories"@en .
+
+taxa:Office_Supplies_Printing_Equipment_Ink_Cartridges a skos:Concept ;
+    taxa:clusterID 349 ;
+    taxa:coherenceScore 5.303e-01 ;
+    skos:broader taxa:Office_Supplies_Printing_Equipment ;
+    skos:prefLabel "Ink Cartridges"@en .
+
+taxa:Office_Supplies_Printing_Equipment_Label_Printers a skos:Concept ;
+    taxa:clusterID 273 ;
+    taxa:coherenceScore 4.629e-01 ;
+    skos:broader taxa:Office_Supplies_Printing_Equipment ;
+    skos:prefLabel "Label Printers"@en .
+
+taxa:Office_Supplies_Printing_Equipment_Labels___Cartridges a skos:Concept ;
+    taxa:clusterID 344 ;
+    taxa:coherenceScore 4.638e-01 ;
+    skos:broader taxa:Office_Supplies_Printing_Equipment ;
+    skos:prefLabel "Labels & Cartridges"@en .
+
+taxa:Office_Supplies_Printing_Equipment_Paper_Trays_and_Feeders a skos:Concept ;
+    taxa:clusterID 53 ;
+    taxa:coherenceScore 5.799e-01 ;
+    skos:broader taxa:Office_Supplies_Printing_Equipment ;
+    skos:prefLabel "Paper Trays and Feeders"@en .
+
+taxa:Office_Supplies_Printing_Equipment_Printer_Scanner_Spare_Parts a skos:Concept ;
+    taxa:clusterID 262 ;
+    taxa:coherenceScore 6.464e-01 ;
+    skos:broader taxa:Office_Supplies_Printing_Equipment ;
+    skos:prefLabel "Printer/Scanner Spare Parts"@en .
+
+taxa:Office_Supplies_Printing_Equipment_Printers___Accessories a skos:Concept ;
+    taxa:clusterID 196 ;
+    taxa:coherenceScore 4.828e-01 ;
+    skos:broader taxa:Office_Supplies_Printing_Equipment ;
+    skos:prefLabel "Printers & Accessories"@en .
+
+taxa:Office_Supplies_Printing_Equipment_Toner_Cartridges a skos:Concept ;
+    taxa:clusterID 19 ;
+    taxa:coherenceScore 4.635e-01 ;
+    skos:broader taxa:Office_Supplies_Printing_Equipment ;
+    skos:prefLabel "Toner Cartridges"@en .
+
+taxa:Office_Supplies_Printing_Materials_A4_Paper a skos:Concept ;
+    taxa:clusterID 150 ;
+    taxa:coherenceScore 5.51e-01 ;
+    skos:broader taxa:Office_Supplies_Printing_Materials ;
+    skos:prefLabel "A4 Paper"@en .
+
+taxa:Office_Supplies_Printing_Materials_Photo_Paper a skos:Concept ;
+    taxa:clusterID 15 ;
+    taxa:coherenceScore 2.807e-01 ;
+    skos:broader taxa:Office_Supplies_Printing_Materials ;
+    skos:prefLabel "Photo Paper"@en .
+
+taxa:Office_Supplies_Printing_Materials_Toner_Cartridges a skos:Concept ;
+    taxa:clusterID 8 ;
+    taxa:coherenceScore 5.596e-01 ;
+    skos:broader taxa:Office_Supplies_Printing_Materials ;
+    skos:prefLabel "Toner Cartridges"@en .
+
+taxa:Office_Supplies_Projector_Accessories_Project_Mounts a skos:Concept ;
+    taxa:clusterID 248 ;
+    taxa:coherenceScore 4.751e-01 ;
+    skos:broader taxa:Office_Supplies_Projector_Accessories ;
+    skos:prefLabel "Project Mounts"@en .
+
+taxa:Office_Supplies_Projector_Accessories_Projection_Accessories a skos:Concept ;
+    taxa:clusterID 394 ;
+    taxa:coherenceScore 5.128e-01 ;
+    skos:broader taxa:Office_Supplies_Projector_Accessories ;
+    skos:prefLabel "Projection Accessories"@en .
+
+taxa:Office_Supplies_Projector_Accessories_Projector_Mounts a skos:Concept ;
+    taxa:clusterID 360 ;
+    taxa:coherenceScore 5.221e-01 ;
+    skos:broader taxa:Office_Supplies_Projector_Accessories ;
+    skos:prefLabel "Projector Mounts"@en .
+
+taxa:Office_Supplies_Protective_Cases_LC_S_Black a skos:Concept ;
+    taxa:clusterID 57 ;
+    taxa:coherenceScore 5.144e-01 ;
+    skos:broader taxa:Office_Supplies_Protective_Cases ;
+    skos:prefLabel "LC-S Black"@en .
+
+taxa:Office_Supplies_Rechargeable_Batteries_Li_Ion_Rechargeable_Batteries a skos:Concept ;
+    taxa:clusterID 234 ;
+    taxa:coherenceScore 1.1e-01 ;
+    skos:broader taxa:Office_Supplies_Rechargeable_Batteries ;
+    skos:prefLabel "Li-Ion Rechargeable Batteries"@en .
+
+taxa:Office_Supplies_Scanners_Kodak_Alaris_Scan_Modules a skos:Concept ;
+    taxa:clusterID 162 ;
+    taxa:coherenceScore 7.483e-01 ;
+    skos:broader taxa:Office_Supplies_Scanners ;
+    skos:prefLabel "Kodak Alaris Scan Modules"@en .
+
+taxa:Office_Supplies_Scanners_Plustek_Scanners a skos:Concept ;
+    taxa:clusterID 263 ;
+    taxa:coherenceScore 3.743e-01 ;
+    skos:broader taxa:Office_Supplies_Scanners ;
+    skos:prefLabel "Plustek Scanners"@en .
+
+taxa:Office_Supplies_Scanners_Scanjet_Scanner a skos:Concept ;
+    taxa:clusterID 288 ;
+    taxa:coherenceScore 7.292e-01 ;
+    skos:broader taxa:Office_Supplies_Scanners ;
+    skos:prefLabel "Scanjet Scanner"@en .
+
+taxa:Office_Supplies_Scanners_Scanner a skos:Concept ;
+    taxa:clusterID 81 ;
+    taxa:coherenceScore 6.733e-01 ;
+    skos:broader taxa:Office_Supplies_Scanners ;
+    skos:prefLabel "Scanner"@en .
+
+taxa:Office_Supplies_Scanners_Scanner_Cartridges___Sheets a skos:Concept ;
+    taxa:clusterID 91 ;
+    taxa:coherenceScore 5.075e-01 ;
+    skos:broader taxa:Office_Supplies_Scanners ;
+    skos:prefLabel "Scanner Cartridges & Sheets"@en .
+
+taxa:Office_Supplies_Scanners___Accessories_Scanner a skos:Concept ;
+    taxa:clusterID 306 ;
+    taxa:coherenceScore 5.264e-01 ;
+    skos:broader taxa:Office_Supplies_Scanners___Accessories ;
+    skos:prefLabel "Scanner"@en .
+
+taxa:Office_Supplies_Stage___Presentation_Equipment_Skirt_Bars a skos:Concept ;
+    taxa:clusterID 215 ;
+    taxa:coherenceScore 5.702e-01 ;
+    skos:broader taxa:Office_Supplies_Stage___Presentation_Equipment ;
+    skos:prefLabel "Skirt Bars"@en .
+
+taxa:Office_Supplies_Writing_Utensils_Pen a skos:Concept ;
+    taxa:clusterID 228 ;
+    taxa:coherenceScore 3.739e-01 ;
+    skos:broader taxa:Office_Supplies_Writing_Utensils ;
+    skos:prefLabel "Pen"@en .
+
+taxa:Software_Backup_Software_Licenses_ReadyRECOVER_100pk__1y__24pk a skos:Concept ;
+    taxa:clusterID 253 ;
+    taxa:coherenceScore 6.29e-01 ;
+    skos:broader taxa:Software_Backup_Software_Licenses ;
+    skos:prefLabel "ReadyRECOVER 100pk, 1y, 24pk"@en .
+
+taxa:Software_Backup_Solutions_Products a skos:Concept ;
+    taxa:clusterID 327 ;
+    taxa:coherenceScore 3.984e-01 ;
+    skos:broader taxa:Software_Backup_Solutions ;
+    skos:prefLabel "Products"@en .
+
+taxa:Software_Compression_Software_Products a skos:Concept ;
+    taxa:clusterID 272 ;
+    taxa:coherenceScore 4.76e-01 ;
+    skos:broader taxa:Software_Compression_Software ;
+    skos:prefLabel "Products"@en .
+
+taxa:Software_Compression___Archiving_Software_Archiving_Software a skos:Concept ;
+    taxa:clusterID 381 ;
+    taxa:coherenceScore 4.151e-01 ;
+    skos:broader taxa:Software_Compression___Archiving_Software ;
+    skos:prefLabel "Archiving Software"@en .
+
+taxa:Software_Graphics___Design_Software_Design_Software_Suites a skos:Concept ;
+    taxa:clusterID 217 ;
+    taxa:coherenceScore 6.872e-01 ;
+    skos:broader taxa:Software_Graphics___Design_Software ;
+    skos:prefLabel "Design Software Suites"@en .
+
+taxa:Software_Graphics___Design_Software_Illustration_Software a skos:Concept ;
+    taxa:clusterID 147 ;
+    taxa:coherenceScore 3.499e-01 ;
+    skos:broader taxa:Software_Graphics___Design_Software ;
+    skos:prefLabel "Illustration Software"@en .
+
+taxa:Software_Graphics___Design_Software_Page_Layout___PDF_Software a skos:Concept ;
+    taxa:clusterID 238 ;
+    taxa:coherenceScore 3.069e-01 ;
+    skos:broader taxa:Software_Graphics___Design_Software ;
+    skos:prefLabel "Page Layout & PDF Software"@en .
+
+taxa:Software_Graphics___Design_Software_PaintShop_Pro_Studio_VideoSoftware a skos:Concept ;
+    taxa:clusterID 10 ;
+    taxa:coherenceScore 5.773e-01 ;
+    skos:broader taxa:Software_Graphics___Design_Software ;
+    skos:prefLabel "PaintShop Pro Studio VideoSoftware"@en .
+
+taxa:Software_IT_Management_Tools_Data_Center_Management a skos:Concept ;
+    taxa:clusterID 171 ;
+    taxa:coherenceScore 2.63e-01 ;
+    skos:broader taxa:Software_IT_Management_Tools ;
+    skos:prefLabel "Data Center Management"@en .
+
+taxa:Software_Licenses___Upgrades_Licenses___Upgrades_Products a skos:Concept ;
+    taxa:clusterID 102 ;
+    taxa:coherenceScore 5.992e-01 ;
+    skos:broader taxa:Software_Licenses___Upgrades ;
+    skos:prefLabel "Licenses & Upgrades Products"@en .
+
+taxa:Software_Licenses___Upgrades_Server_Licenses a skos:Concept ;
+    taxa:clusterID 333 ;
+    taxa:coherenceScore 2.865e-01 ;
+    skos:broader taxa:Software_Licenses___Upgrades ;
+    skos:prefLabel "Server Licenses"@en .
+
+taxa:Software_Maintenance_Services_Products a skos:Concept ;
+    taxa:clusterID 104 ;
+    taxa:coherenceScore 1.194e-01 ;
+    skos:broader taxa:Software_Maintenance_Services ;
+    skos:prefLabel "Products"@en .
+
+taxa:Software_Maintenance___Support_Support_Fees a skos:Concept ;
+    taxa:clusterID 374 ;
+    taxa:coherenceScore 5.148e-01 ;
+    skos:broader taxa:Software_Maintenance___Support ;
+    skos:prefLabel "Support Fees"@en .
+
+taxa:Software_Management_Software_MDM_Solutions a skos:Concept ;
+    taxa:clusterID 231 ;
+    taxa:coherenceScore 5.648e-01 ;
+    skos:broader taxa:Software_Management_Software ;
+    skos:prefLabel "MDM Solutions"@en .
+
+taxa:Software_Network_Management_Software_IDP_Solutions a skos:Concept ;
+    taxa:clusterID 297 ;
+    taxa:coherenceScore 6.311e-01 ;
+    skos:broader taxa:Software_Network_Management_Software ;
+    skos:prefLabel "IDP Solutions"@en .
+
+taxa:Software_Network_Management_Software_Monitoring_Licenses a skos:Concept ;
+    taxa:clusterID 237 ;
+    taxa:coherenceScore 3.748e-01 ;
+    skos:broader taxa:Software_Network_Management_Software ;
+    skos:prefLabel "Monitoring Licenses"@en .
+
+taxa:Software_Network_Management_Software_Products a skos:Concept ;
+    taxa:clusterID 212 ;
+    taxa:coherenceScore 8.219e-01 ;
+    skos:broader taxa:Software_Network_Management_Software ;
+    skos:prefLabel "Products"@en .
+
+taxa:Software_Networking___Security_Firewalls a skos:Concept ;
+    taxa:clusterID 350 ;
+    taxa:coherenceScore 3.167e-01 ;
+    skos:broader taxa:Software_Networking___Security ;
+    skos:prefLabel "Firewalls"@en .
+
+taxa:Software_Operating_Systems_Business_and_Home_OS a skos:Concept ;
+    taxa:clusterID 247 ;
+    taxa:coherenceScore 4.017e-01 ;
+    skos:broader taxa:Software_Operating_Systems ;
+    skos:prefLabel "Business and Home OS"@en .
+
+taxa:Software_Operating_Systems_Server_Licenses a skos:Concept ;
+    taxa:clusterID 270 ;
+    taxa:coherenceScore 4.149e-01 ;
+    skos:broader taxa:Software_Operating_Systems ;
+    skos:prefLabel "Server Licenses"@en .
+
+taxa:Software_Optical_Character_Recognition_Software_Readiris_12_Corporate_Pro a skos:Concept ;
+    taxa:clusterID 229 ;
+    taxa:coherenceScore 4e-01 ;
+    skos:broader taxa:Software_Optical_Character_Recognition_Software ;
+    skos:prefLabel "Readiris 12 Corporate Pro"@en .
+
+taxa:Software_Productivity_Software_Office_Suites a skos:Concept ;
+    taxa:clusterID 286 ;
+    taxa:coherenceScore 4.995e-01 ;
+    skos:broader taxa:Software_Productivity_Software ;
+    skos:prefLabel "Office Suites"@en .
+
+taxa:Software_Productivity_Software_Word_Processing_Software a skos:Concept ;
+    taxa:clusterID 343 ;
+    taxa:coherenceScore 4.986e-01 ;
+    skos:broader taxa:Software_Productivity_Software ;
+    skos:prefLabel "Word Processing Software"@en .
+
+taxa:Software_Quotations___Deployments_Custom_Deployment a skos:Concept ;
+    taxa:clusterID 257 ;
+    taxa:coherenceScore 7.59e-01 ;
+    skos:broader taxa:Software_Quotations___Deployments ;
+    skos:prefLabel "Custom Deployment"@en .
+
+taxa:Software_Security_Software_Antivirus_Licenses a skos:Concept ;
+    taxa:clusterID 18 ;
+    taxa:coherenceScore 5.307e-01 ;
+    skos:broader taxa:Software_Security_Software ;
+    skos:prefLabel "Antivirus Licenses"@en .
+
+taxa:Software_Security_Software_Antivirus_Licenses_Enterprise_Micro_Multilingual_Renewal a skos:Concept ;
+    taxa:clusterID 341 ;
+    taxa:coherenceScore 5.908e-01 ;
+    skos:broader taxa:Software_Security_Software ;
+    skos:prefLabel "Antivirus Licenses Enterprise/Micro Multilingual Renewal"@en .
+
+taxa:Software_Security_Software_Antivirus_Suites a skos:Concept ;
+    taxa:clusterID 278 ;
+    taxa:coherenceScore 3.769e-01 ;
+    skos:broader taxa:Software_Security_Software ;
+    skos:prefLabel "Antivirus Suites"@en .
+
+taxa:Software_Security_Software_Backup_Solutions a skos:Concept ;
+    taxa:clusterID 324 ;
+    taxa:coherenceScore 4.563e-01 ;
+    skos:broader taxa:Software_Security_Software ;
+    skos:prefLabel "Backup Solutions"@en .
+
+taxa:Software_Security_Software_Business_Security_Solutions a skos:Concept ;
+    taxa:clusterID 281 ;
+    taxa:coherenceScore 4.157e-01 ;
+    skos:broader taxa:Software_Security_Software ;
+    skos:prefLabel "Business Security Solutions"@en .
+
+taxa:Software_Security_Software_Cleanup_Services a skos:Concept ;
+    taxa:clusterID 269 ;
+    taxa:coherenceScore 4.448e-01 ;
+    skos:broader taxa:Software_Security_Software ;
+    skos:prefLabel "Cleanup Services"@en .
+
+taxa:Software_Security_Software_Email_Encryption a skos:Concept ;
+    taxa:clusterID 353 ;
+    taxa:coherenceScore 6.337e-01 ;
+    skos:broader taxa:Software_Security_Software ;
+    skos:prefLabel "Email Encryption"@en .
+
+taxa:Software_Security_Software_Firewalls_Enterprise_Micro_Renewal a skos:Concept ;
+    taxa:clusterID 352 ;
+    taxa:coherenceScore 4.919e-01 ;
+    skos:broader taxa:Software_Security_Software ;
+    skos:prefLabel "Firewalls Enterprise/Micro Renewal"@en .
+
+taxa:Software_Security_Software_Lab_Antivirus_Licenses a skos:Concept ;
+    taxa:clusterID 71 ;
+    taxa:coherenceScore 7.661e-01 ;
+    skos:broader taxa:Software_Security_Software ;
+    skos:prefLabel "Lab Antivirus Licenses"@en .
+
+taxa:Software_Security_Software_Lab_Business_Licenses a skos:Concept ;
+    taxa:clusterID 395 ;
+    taxa:coherenceScore 7.13e-01 ;
+    skos:broader taxa:Software_Security_Software ;
+    skos:prefLabel "Lab Business Licenses"@en .
+
+taxa:Software_Security_Software_Lab_Enterprise_Licenses a skos:Concept ;
+    taxa:clusterID 209 ;
+    taxa:coherenceScore 6.751e-01 ;
+    skos:broader taxa:Software_Security_Software ;
+    skos:prefLabel "Lab Enterprise Licenses"@en .
+
+taxa:Software_Security_Software_License_Renewals a skos:Concept ;
+    taxa:clusterID 325 ;
+    taxa:coherenceScore 3.389e-01 ;
+    skos:broader taxa:Software_Security_Software ;
+    skos:prefLabel "License Renewals"@en .
+
+taxa:Software_Security_Software_Licenses___Upgrades a skos:Concept ;
+    taxa:clusterID 242 ;
+    taxa:coherenceScore 7.482e-01 ;
+    skos:broader taxa:Software_Security_Software ;
+    skos:prefLabel "Licenses & Upgrades"@en .
+
+taxa:Software_Security_Software_Mail_Security_Licenses a skos:Concept ;
+    taxa:clusterID 175 ;
+    taxa:coherenceScore 7.846e-01 ;
+    skos:broader taxa:Software_Security_Software ;
+    skos:prefLabel "Mail Security Licenses"@en .
+
+taxa:Software_Security_Software_Remote_Access_Software a skos:Concept ;
+    taxa:clusterID 251 ;
+    taxa:coherenceScore 4.689e-01 ;
+    skos:broader taxa:Software_Security_Software ;
+    skos:prefLabel "Remote Access Software"@en .
+
+taxa:Software_Security_Software_Server_Protection a skos:Concept ;
+    taxa:clusterID 301 ;
+    taxa:coherenceScore 3.258e-01 ;
+    skos:broader taxa:Software_Security_Software ;
+    skos:prefLabel "Server Protection"@en .
+
+taxa:Software_Server_Licenses_Windows_Server_Licenses a skos:Concept ;
+    taxa:clusterID 44 ;
+    taxa:coherenceScore 4.634e-01 ;
+    skos:broader taxa:Software_Server_Licenses ;
+    skos:prefLabel "Windows Server Licenses"@en .
+
+taxa:Software_Support_Services_Warranty_Extensions a skos:Concept ;
+    taxa:clusterID 245 ;
+    taxa:coherenceScore 5.922e-01 ;
+    skos:broader taxa:Software_Support_Services ;
+    skos:prefLabel "Warranty Extensions"@en .
+
+taxa:Software_Support___Maintenance_Maintenance_Fees a skos:Concept ;
+    taxa:clusterID 315 ;
+    taxa:coherenceScore 4.753e-01 ;
+    skos:broader taxa:Software_Support___Maintenance ;
+    skos:prefLabel "Maintenance Fees"@en .
+
+taxa:Software_Support___Maintenance_Software_Licenses a skos:Concept ;
+    taxa:clusterID 146 ;
+    taxa:coherenceScore 4.056e-01 ;
+    skos:broader taxa:Software_Support___Maintenance ;
+    skos:prefLabel "Software Licenses"@en .
+
+taxa:Software_Support___Maintenance_Software_Support a skos:Concept ;
+    taxa:clusterID 86 ;
+    taxa:coherenceScore 3.798e-01 ;
+    skos:broader taxa:Software_Support___Maintenance ;
+    skos:prefLabel "Software Support"@en .
+
+taxa:Software_Support___Maintenance_Software_Support_Services a skos:Concept ;
+    taxa:clusterID 358 ;
+    taxa:coherenceScore 3.589e-01 ;
+    skos:broader taxa:Software_Support___Maintenance ;
+    skos:prefLabel "Software Support Services"@en .
+
+taxa:Software_Support___Maintenance_Subscription_Licenses a skos:Concept ;
+    taxa:clusterID 397 ;
+    taxa:coherenceScore 4.882e-01 ;
+    skos:broader taxa:Software_Support___Maintenance ;
+    skos:prefLabel "Subscription Licenses"@en .
+
+taxa:Software_Support___Maintenance_Subscription_Services a skos:Concept ;
+    taxa:clusterID 206 ;
+    taxa:coherenceScore 3.83e-01 ;
+    skos:broader taxa:Software_Support___Maintenance ;
+    skos:prefLabel "Subscription Services"@en .
+
+taxa:Software_Support___Maintenance_Support_Fees a skos:Concept ;
+    taxa:clusterID 223 ;
+    taxa:coherenceScore 5.039e-01 ;
+    skos:broader taxa:Software_Support___Maintenance ;
+    skos:prefLabel "Support Fees"@en .
+
+taxa:Software_Support___Services_Service_Kits a skos:Concept ;
+    taxa:clusterID 167 ;
+    taxa:coherenceScore 3.298e-01 ;
+    skos:broader taxa:Software_Support___Services ;
+    skos:prefLabel "Service Kits"@en .
+
+taxa:Software_Virtualization_Software_VMware_Products a skos:Concept ;
+    taxa:clusterID 107 ;
+    taxa:coherenceScore 6.042e-01 ;
+    skos:broader taxa:Software_Virtualization_Software ;
+    skos:prefLabel "VMware Products"@en .
+
+taxa:Electronics_Adapters___Converters a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Adapters & Converters"@en .
+
+taxa:Electronics_Alarm_Clocks a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Alarm Clocks"@en .
+
+taxa:Electronics_Antenna_Cables a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Antenna Cables"@en .
+
+taxa:Electronics_Audio_Devices a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Audio Devices"@en .
+
+taxa:Electronics_Audio_Players a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Audio Players"@en .
+
+taxa:Electronics_Barcode_Readers a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Barcode Readers"@en .
+
+taxa:Electronics_Batteries___Power_Supply a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Batteries & Power Supply"@en .
+
+taxa:Electronics_Battery_Accessories a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Battery Accessories"@en .
+
+taxa:Electronics_Battery_Chargers a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Battery Chargers"@en .
+
+taxa:Electronics_Cables___Adapters a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Cables & Adapters"@en .
+
+taxa:Electronics_Camcorders a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Camcorders"@en .
+
+taxa:Electronics_Camera_Accessories a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Camera Accessories"@en .
+
+taxa:Electronics_Camera___Photo a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Camera & Photo"@en .
+
+taxa:Electronics_Cameras___Imaging a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Cameras & Imaging"@en .
+
+taxa:Electronics_Cameras___Photo a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Cameras & Photo"@en .
+
+taxa:Electronics_Cameras___Photography a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Cameras & Photography"@en .
+
+taxa:Electronics_Cases___Covers a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Cases & Covers"@en .
+
+taxa:Electronics_Charging_Adapters a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Charging Adapters"@en .
+
+taxa:Electronics_Communication_Devices a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Communication Devices"@en .
+
+taxa:Electronics_Computers a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Computers"@en .
+
+taxa:Electronics_Computers___Components a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Computers & Components"@en .
+
+taxa:Electronics_Computers___Computer_Parts a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Computers & Computer Parts"@en .
+
+taxa:Electronics_Computers___Laptops a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Computers & Laptops"@en .
+
+taxa:Electronics_Computers___Servers a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Computers & Servers"@en .
+
+taxa:Electronics_Computers___Workstations a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Computers & Workstations"@en .
+
+taxa:Electronics_Connectivity_Devices a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Connectivity Devices"@en .
+
+taxa:Electronics_Customer_Display_Units a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Customer Display Units"@en .
+
+taxa:Electronics_DVD_Players a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "DVD Players"@en .
+
+taxa:Electronics_Desktop_PCs a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Desktop PCs"@en .
+
+taxa:Electronics_Digital_Media_Players a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Digital Media Players"@en .
+
+taxa:Electronics_Digital_Photo_Frames a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Digital Photo Frames"@en .
+
+taxa:Electronics_E_Readers a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "E-Readers"@en .
+
+taxa:Electronics_Fitness_Trackers a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Fitness Trackers"@en .
+
+taxa:Electronics_Flat_Panel_Monitor_Accessories a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Flat Panel Monitor Accessories"@en .
+
+taxa:Electronics_Head_Mounted_Displays a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Head-Mounted Displays"@en .
+
+taxa:Electronics_Headphones a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Headphones"@en .
+
+taxa:Electronics_Headphones___Audio_Accessories a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Headphones & Audio Accessories"@en .
+
+taxa:Electronics_Headsets a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Headsets"@en .
+
+taxa:Electronics_Home_Audio___Video a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Home Audio & Video"@en .
+
+taxa:Electronics_Home_Entertainment_Systems a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Home Entertainment Systems"@en .
+
+taxa:Electronics_Laptops___Notebooks a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Laptops & Notebooks"@en .
+
+taxa:Electronics_MP3_MP4_Players a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "MP3/MP4 Players"@en .
+
+taxa:Electronics_Mobile_Devices a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Mobile Devices"@en .
+
+taxa:Electronics_Mobile_Phones___Tablets a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Mobile Phones & Tablets"@en .
+
+taxa:Electronics_Mounting_Kits a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Mounting Kits"@en .
+
+taxa:Electronics_Navigation_Devices a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Navigation Devices"@en .
+
+taxa:Electronics_Network_Adapters a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Network Adapters"@en .
+
+taxa:Electronics_Network_Equipment a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Network Equipment"@en .
+
+taxa:Electronics_Notebook_Accessories a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Notebook Accessories"@en .
+
+taxa:Electronics_Optical_Disc_Drives a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Optical Disc Drives"@en .
+
+taxa:Electronics_Phone_Accessories a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Phone Accessories"@en .
+
+taxa:Electronics_Portable_DVD_Players a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Portable DVD Players"@en .
+
+taxa:Electronics_Power_Banks a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Power Banks"@en .
+
+taxa:Electronics_Power_Distribution_Units a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Power Distribution Units"@en .
+
+taxa:Electronics_Power_Management_Equipment a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Power Management Equipment"@en .
+
+taxa:Electronics_Power_Stations a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Power Stations"@en .
+
+taxa:Electronics_Power_Strips___Surge_Protectors a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Power Strips & Surge Protectors"@en .
+
+taxa:Electronics_Printer_Accessories a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Printer Accessories"@en .
+
+taxa:Electronics_Printers___Scanners a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Printers & Scanners"@en .
+
+taxa:Electronics_Privacy_Filters a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Privacy Filters"@en .
+
+taxa:Electronics_Reading_Devices a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Reading Devices"@en .
+
+taxa:Electronics_Screen_Protectors a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Screen Protectors"@en .
+
+taxa:Electronics_Signage_Displays a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Signage Displays"@en .
+
+taxa:Electronics_Smart_TVs a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Smart TVs"@en .
+
+taxa:Electronics_Smartphones a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Smartphones"@en .
+
+taxa:Electronics_Spare_Parts a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Spare Parts"@en .
+
+taxa:Electronics_Speakers a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Speakers"@en .
+
+taxa:Electronics_TV_Antennas a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "TV Antennas"@en .
+
+taxa:Electronics_TVs___Audio a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "TVs & Audio"@en .
+
+taxa:Electronics_TVs___Monitors a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "TVs & Monitors"@en .
+
+taxa:Electronics_Tablets___Tablet_Accessories a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Tablets & Tablet Accessories"@en .
+
+taxa:Electronics_Video_Conferencing_Equipment a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Video Conferencing Equipment"@en .
+
+taxa:Electronics_Warranty_Services a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Warranty Services"@en .
+
+taxa:Electronics_Wearable_Devices a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Wearable Devices"@en .
+
+taxa:Electronics_Wearable_Technology a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Wearable Technology"@en .
+
+taxa:Electronics_Wristbands a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Wristbands"@en .
+
+taxa:Home___Office a skos:Concept ;
+    skos:prefLabel "Home & Office"@en ;
+    skos:topConceptOf taxa:ProductTaxonomy .
+
+taxa:Home___Office_Wiring___Storage a skos:Concept ;
+    skos:broader taxa:Home___Office ;
+    skos:prefLabel "Wiring & Storage"@en .
+
+taxa:Office_Supplies_Accessories a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Accessories"@en .
+
+taxa:Office_Supplies_Binding___Cover_Materials a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Binding & Cover Materials"@en .
+
+taxa:Office_Supplies_Binding___Packaging a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Binding & Packaging"@en .
+
+taxa:Office_Supplies_Binding___Presentation a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Binding & Presentation"@en .
+
+taxa:Office_Supplies_Cabinets a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Cabinets"@en .
+
+taxa:Office_Supplies_Data_Storage a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Data Storage"@en .
+
+taxa:Office_Supplies_Desks___Accessories a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Desks & Accessories"@en .
+
+taxa:Office_Supplies_Ergonomic_Accessories a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Ergonomic Accessories"@en .
+
+taxa:Office_Supplies_Ergonomic_Furniture a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Ergonomic Furniture"@en .
+
+taxa:Office_Supplies_Filters a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Filters"@en .
+
+taxa:Office_Supplies_Hardware a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Hardware"@en .
+
+taxa:Office_Supplies_Labeling_Supplies a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Labeling Supplies"@en .
+
+taxa:Office_Supplies_Laminating___Labeling_Equipment a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Laminating & Labeling Equipment"@en .
+
+taxa:Office_Supplies_Monitor_Accessories a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Monitor Accessories"@en .
+
+taxa:Office_Supplies_Mounting_Accessories a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Mounting Accessories"@en .
+
+taxa:Office_Supplies_Organizers a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Organizers"@en .
+
+taxa:Office_Supplies_Paper___Printing_Supplies a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Paper & Printing Supplies"@en .
+
+taxa:Office_Supplies_Photography_Equipment a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Photography Equipment"@en .
+
+taxa:Office_Supplies_Printer_Scanner_Spare_Parts a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Printer/Scanner Spare Parts"@en .
+
+taxa:Office_Supplies_Printer_Services___Support a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Printer Services & Support"@en .
+
+taxa:Office_Supplies_Printing_Accessories a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Printing Accessories"@en .
+
+taxa:Office_Supplies_Protective_Cases a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Protective Cases"@en .
+
+taxa:Office_Supplies_Rechargeable_Batteries a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Rechargeable Batteries"@en .
+
+taxa:Office_Supplies_Scanners___Accessories a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Scanners & Accessories"@en .
+
+taxa:Office_Supplies_Stage___Presentation_Equipment a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Stage & Presentation Equipment"@en .
+
+taxa:Office_Supplies_Writing_Utensils a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Writing Utensils"@en .
+
+taxa:Software_Backup_Software_Licenses a skos:Concept ;
+    skos:broader taxa:Software ;
+    skos:prefLabel "Backup Software Licenses"@en .
+
+taxa:Software_Backup_Solutions a skos:Concept ;
+    skos:broader taxa:Software ;
+    skos:prefLabel "Backup Solutions"@en .
+
+taxa:Software_Compression_Software a skos:Concept ;
+    skos:broader taxa:Software ;
+    skos:prefLabel "Compression Software"@en .
+
+taxa:Software_Compression___Archiving_Software a skos:Concept ;
+    skos:broader taxa:Software ;
+    skos:prefLabel "Compression & Archiving Software"@en .
+
+taxa:Software_IT_Management_Tools a skos:Concept ;
+    skos:broader taxa:Software ;
+    skos:prefLabel "IT Management Tools"@en .
+
+taxa:Software_Maintenance_Services a skos:Concept ;
+    skos:broader taxa:Software ;
+    skos:prefLabel "Maintenance Services"@en .
+
+taxa:Software_Maintenance___Support a skos:Concept ;
+    skos:broader taxa:Software ;
+    skos:prefLabel "Maintenance & Support"@en .
+
+taxa:Software_Management_Software a skos:Concept ;
+    skos:broader taxa:Software ;
+    skos:prefLabel "Management Software"@en .
+
+taxa:Software_Networking___Security a skos:Concept ;
+    skos:broader taxa:Software ;
+    skos:prefLabel "Networking & Security"@en .
+
+taxa:Software_Optical_Character_Recognition_Software a skos:Concept ;
+    skos:broader taxa:Software ;
+    skos:prefLabel "Optical Character Recognition Software"@en .
+
+taxa:Software_Quotations___Deployments a skos:Concept ;
+    skos:broader taxa:Software ;
+    skos:prefLabel "Quotations & Deployments"@en .
+
+taxa:Software_Server_Licenses a skos:Concept ;
+    skos:broader taxa:Software ;
+    skos:prefLabel "Server Licenses"@en .
+
+taxa:Software_Support_Services a skos:Concept ;
+    skos:broader taxa:Software ;
+    skos:prefLabel "Support Services"@en .
+
+taxa:Software_Support___Services a skos:Concept ;
+    skos:broader taxa:Software ;
+    skos:prefLabel "Support & Services"@en .
+
+taxa:Software_Virtualization_Software a skos:Concept ;
+    skos:broader taxa:Software ;
+    skos:prefLabel "Virtualization Software"@en .
+
+taxa:Electronics_Audio___Video_Equipment a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Audio & Video Equipment"@en .
+
+taxa:Electronics_Cables___Networking a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Cables & Networking"@en .
+
+taxa:Electronics_Calculators a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Calculators"@en .
+
+taxa:Electronics_Cameras___Video_Equipment a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Cameras & Video Equipment"@en .
+
+taxa:Electronics_Computers___Accessories a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Computers & Accessories"@en .
+
+taxa:Electronics_Computers___Notebooks a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Computers & Notebooks"@en .
+
+taxa:Electronics_Connectivity_Cables___Adapters a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Connectivity Cables & Adapters"@en .
+
+taxa:Electronics_Displays___Monitors a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Displays & Monitors"@en .
+
+taxa:Electronics_Mobile_Accessories a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Mobile Accessories"@en .
+
+taxa:Electronics_Power_Accessories a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Power Accessories"@en .
+
+taxa:Electronics_Projectors a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Projectors"@en .
+
+taxa:Electronics_Rechargeable_Batteries a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Rechargeable Batteries"@en .
+
+taxa:Electronics_Remote_Controls a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Remote Controls"@en .
+
+taxa:Electronics_Smartwatches a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Smartwatches"@en .
+
+taxa:Electronics_Telephones a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Telephones"@en .
+
+taxa:Electronics_Video___Audio_Equipment a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Video & Audio Equipment"@en .
+
+taxa:Office_Supplies_Binding___Storage a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Binding & Storage"@en .
+
+taxa:Office_Supplies_Calculators a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Calculators"@en .
+
+taxa:Office_Supplies_Cases___Covers a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Cases & Covers"@en .
+
+taxa:Office_Supplies_Ink___Toner_Cartridges a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Ink & Toner Cartridges"@en .
+
+taxa:Office_Supplies_Inkjet_Printers a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Inkjet Printers"@en .
+
+taxa:Office_Supplies_Presentation_Equipment a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Presentation Equipment"@en .
+
+taxa:Office_Supplies_Printer_Accessories a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Printer Accessories"@en .
+
+taxa:Software_Licenses___Upgrades a skos:Concept ;
+    skos:broader taxa:Software ;
+    skos:prefLabel "Licenses & Upgrades"@en .
+
+taxa:Software_Operating_Systems a skos:Concept ;
+    skos:broader taxa:Software ;
+    skos:prefLabel "Operating Systems"@en .
+
+taxa:Software_Productivity_Software a skos:Concept ;
+    skos:broader taxa:Software ;
+    skos:prefLabel "Productivity Software"@en .
+
+taxa:Electronics_Audio_Equipment a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Audio Equipment"@en .
+
+taxa:Electronics_Batteries___Chargers a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Batteries & Chargers"@en .
+
+taxa:Electronics_Mobile_Phones___Accessories a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Mobile Phones & Accessories"@en .
+
+taxa:Electronics_Power_Management a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Power Management"@en .
+
+taxa:Office_Supplies_Printers a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Printers"@en .
+
+taxa:Office_Supplies_Printers___Scanners a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Printers & Scanners"@en .
+
+taxa:Office_Supplies_Printing_Materials a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Printing Materials"@en .
+
+taxa:Office_Supplies_Projector_Accessories a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Projector Accessories"@en .
+
+taxa:Software_Network_Management_Software a skos:Concept ;
+    skos:broader taxa:Software ;
+    skos:prefLabel "Network Management Software"@en .
+
+taxa:Electronics_Batteries a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Batteries"@en .
+
+taxa:Electronics_Monitors a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Monitors"@en .
+
+taxa:Electronics_Networking___Connectivity a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Networking & Connectivity"@en .
+
+taxa:Electronics_Projectors___Displays a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Projectors & Displays"@en .
+
+taxa:ProductTaxonomy a skos:ConceptScheme ;
+    rdfs:label "Icecat Product Taxonomy (SKOS)" .
+
+taxa:Software_Graphics___Design_Software a skos:Concept ;
+    skos:broader taxa:Software ;
+    skos:prefLabel "Graphics & Design Software"@en .
+
+taxa:Office_Supplies_Scanners a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Scanners"@en .
+
+taxa:Electronics_Cameras___Camcorders a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Cameras & Camcorders"@en .
+
+taxa:Electronics_Power_Supplies a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Power Supplies"@en .
+
+taxa:Electronics_Computer_Components a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Computer Components"@en .
+
+taxa:Software_Support___Maintenance a skos:Concept ;
+    skos:broader taxa:Software ;
+    skos:prefLabel "Support & Maintenance"@en .
+
+taxa:Office_Supplies_Printing_Equipment a skos:Concept ;
+    skos:broader taxa:Office_Supplies ;
+    skos:prefLabel "Printing Equipment"@en .
+
+taxa:Electronics_Networking_Equipment a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Networking Equipment"@en .
+
+taxa:Electronics_Cables___Connectors a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Cables & Connectors"@en .
+
+taxa:Electronics_Computer_Hardware a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Computer Hardware"@en .
+
+taxa:Electronics_Storage_Devices a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Storage Devices"@en .
+
+taxa:Software_Security_Software a skos:Concept ;
+    skos:broader taxa:Software ;
+    skos:prefLabel "Security Software"@en .
+
+taxa:Electronics_Computer_Accessories a skos:Concept ;
+    skos:broader taxa:Electronics ;
+    skos:prefLabel "Computer Accessories"@en .
+
+taxa:Software a skos:Concept ;
+    skos:prefLabel "Software"@en ;
+    skos:topConceptOf taxa:ProductTaxonomy .
+
+taxa:Office_Supplies a skos:Concept ;
+    skos:prefLabel "Office Supplies"@en ;
+    skos:topConceptOf taxa:ProductTaxonomy .
+
+taxa:Electronics a skos:Concept ;
+    skos:prefLabel "Electronics"@en ;
+    skos:topConceptOf taxa:ProductTaxonomy .
+
