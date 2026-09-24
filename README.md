@@ -19,7 +19,7 @@ In large-scale e-commerce catalogs, taxonomy construction and maintenance face d
 
 ### System Overview & Technical Decisions
 - **Label-Aware Stratified Sampling:** Sampled 489,000 raw Icecat product listings down to a balanced dataset of 35,607 items across 4 Root categories (`Electronics`, `Office Supplies`, `Software`, `Home & Office`) using reference labels to ensure balanced representation across the distribution tail.
-- **Dense Embeddings & Manifold Projection:** Mapped multi-field product text (title, brand, specifications) into dense vectors using `all-MiniLM-L6-v2` (384 dimensions), followed by UMAP projection (5 dimensions) to preserve local and global manifold structure.
+- **Dense Embeddings & Manifold Projection:** Mapped multi-field product text (title, brand, specifications) into dense vectors using `all-MiniLM-L6-v2` (384 dimensions), followed by UMAP projection (5 dimensions) to preserve neighbourhood structure while reducing the embedding space for clustering.
 - **Hybrid Clustering Architecture:** Used **HDBSCAN** for density-based structure discovery, identifying a candidate granularity of $K = 411$ clusters under the selected configuration, followed by **Ward Agglomerative Hierarchical Clustering** constrained to $K = 411$ to produce a full partition with zero unassigned noise points.
 - **Two-Stage LLM Labelling & Critic Verification:** Extracted TF-IDF cluster keywords and centroid exemplars, prompted Qwen 2.5 to generate candidate taxonomy labels (`Root > Parent > Leaf`), and verified them against parent-level sibling consistency and depth constraints using an automated critic.
 - **Confidence-Aware Product Assignment:** Developed an inference engine using cosine distance to the 411 cluster centroids in 5D UMAP space, using confidence margins to distinguish clear assignments from ambiguous cases requiring human review.
@@ -80,6 +80,11 @@ In large-scale e-commerce catalogs, taxonomy construction and maintenance face d
 +---------------------------+                 +---------------------------+
 ```
 
+### 💡 Why This Architecture?
+- **Why HDBSCAN + Ward?** HDBSCAN was used to explore density-based structure without fixing the cluster count in advance. Because HDBSCAN can leave sparse observations unassigned, Ward clustering was subsequently used at the selected granularity to obtain complete assignment coverage.
+- **Why LLM Labelling?** Clustering produces machine-generated groups but not human-readable taxonomy names. TF-IDF keywords and centroid exemplars provide structured context for the LLM, while the critic checks hierarchy consistency before accepting the label.
+- **Why Confidence-Aware Inference?** New products must be assigned to an existing taxonomy without retraining the complete pipeline. Distance and margin heuristics therefore provide a mechanism to distinguish clear assignments from ambiguous or potentially novel cases.
+
 ---
 
 ## 🏷️ Two-Stage LLM Labelling & Critic Verification
@@ -129,7 +134,7 @@ The pipeline was quantitatively evaluated across internal geometric clustering m
 | **Homogeneity Score** | **0.820** | External Benchmark | Extent to which each cluster contains only data points of a single class |
 | **Completeness Score** | **0.768** | External Benchmark | Extent to which all data points of a given class are assigned to the same cluster |
 | **V-Measure Score** | **0.793** | External Benchmark | Harmonic mean of homogeneity and completeness |
-| **Catalog Partition Coverage** | **100.0%** | Structural Property | Full coverage under Ward clustering (zero unassigned noise points) |
+| **Modelling-Dataset Coverage** | **100.0%** | Structural Property | All 35,607 sampled products assigned to a cluster (zero unassigned noise points) |
 
 ---
 
@@ -145,7 +150,7 @@ When assigning newly observed products to the taxonomy, the inference engine app
 ```
 
 - **Ambiguous Assignments:** A small margin indicates a product sitting equidistant between two related categories (e.g., *USB Hubs* vs. *Docking Stations*), flagging it for human taxonomist verification.
-- **Potential Taxonomy Drift:** Products far from all existing centroids with near-zero margins do not trigger automatic category creation; instead, they serve as a detection mechanism flagging candidate out-of-taxonomy items for human inspection.
+- **Potential Taxonomy Drift:** Products that are distant from all existing centroids and/or exhibit highly ambiguous nearest-centroid assignments are flagged as candidate out-of-taxonomy cases for human inspection.
 
 ---
 
@@ -154,7 +159,7 @@ When assigning newly observed products to the taxonomy, the inference engine app
 To test the utility of the generated taxonomy beyond geometric evaluation, three practical extensions were implemented:
 
 1. **🔍 Offline Search Relevance Evaluation:**
-   - Evaluated baseline BM25 lexical keyword retrieval against taxonomy-aware reranking (filtering search candidate pools by predicted category).
+   - Evaluated baseline BM25 lexical keyword retrieval against taxonomy-aware reranking, using predicted category membership to adjust the ranking of semantic/lexical retrieval candidates.
    - Evaluated using **Mean Reciprocal Rank (MRR)** to assess whether category scoping ranks relevant products higher in the result set.
 2. **📋 Category Attribute Schemas:**
    - Generated structured, category-specific attribute templates (e.g., RAM capacity, form factor, and bus speed for memory modules; sensor resolution, mount type, and ISO range for cameras).
@@ -177,7 +182,7 @@ The repository includes an interactive web dashboard for inspecting taxonomy str
 - **🚀 Product Discovery Layer:**
   - *Tab 1: Search Relevance:* Offline BM25 vs. taxonomy-filtered retrieval benchmark and MRR comparison.
   - *Tab 2: Category Attribute Schemas:* Structured JSON schema inspector across categories.
-  - *Tab 3: SKOS Ontology Export:* Direct preview and download of `taxonomy.ttl`.
+  - *Tab 3: SKOS/RDF Export:* Direct preview and download of `taxonomy.ttl`.
 
 ---
 
@@ -185,7 +190,7 @@ The repository includes an interactive web dashboard for inspecting taxonomy str
 
 ```
 ├── app.py                          # Streamlit application entrypoint
-├── requirements.txt                # Production dependency specification
+├── requirements.txt                # Application runtime dependencies
 ├── Final_Evaluation_Results.csv    # Empirical evaluation metrics table
 ├── Naming_Robust_Final_clean.csv   # The 411 cluster taxonomy definitions
 ├── Images/                         # Thesis architecture diagrams and evaluation plots
@@ -245,7 +250,7 @@ Open your browser at `http://localhost:8501`.
    - **Repository:** `gaurav-619/Product-taxonomy`
    - **Branch:** `main`
    - **Main file path:** `app.py`
-4. Click **Deploy**. Dependencies from `requirements.txt` and model artifacts via Git LFS are resolved automatically.
+4. Click **Deploy**. The application can be deployed to Streamlit Community Cloud, with required model artifacts stored through Git LFS.
 
 ---
 
@@ -254,7 +259,7 @@ Open your browser at `http://localhost:8501`.
 To maintain technical transparency, the following boundaries of this work should be noted:
 - **Offline Evaluation:** Search relevance and retrieval benchmarks were conducted offline on sampled catalog queries rather than an online A/B testing environment.
 - **Confidence vs. Formal OOD:** Margin-based confidence scores identify boundary ambiguity and anomalous products relative to existing centroids, but do not constitute a formally calibrated out-of-distribution detector.
-- **Human Usability Validation:** While computational metrics (ARI, NMI, purity, silhouette) and automated critic checks were extensive, a formal user-centred usability study (e.g., card-sorting and tree-testing with domain experts) represents the recommended next step for taxonomy governance.
+- **Human Usability Validation:** While computational metrics (ARI, NMI, purity, silhouette) and automated critic checks were extensive, a formal user-centred usability study (e.g., card-sorting and tree-testing with buyers, sellers, or domain experts) represents the recommended next step for taxonomy governance.
 
 ---
 
@@ -264,7 +269,7 @@ To maintain technical transparency, the following boundaries of this work should
 @mastersthesis{jadhav2026taxonomy,
   author       = {Gourav Suresh Jadhav},
   title        = {LLM-Based E-Commerce Product Taxonomy & Discovery},
-  school       = {Master Thesis},
+  school       = {SRH University Heidelberg},
   year         = {2026}
 }
 ```

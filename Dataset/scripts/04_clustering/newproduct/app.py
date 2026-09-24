@@ -1552,7 +1552,7 @@ elif page == "🚀 Product Discovery":
     st.title("🚀 Product Discovery Layer")
     st.markdown("Exploring downstream applications of the generated taxonomy.")
     
-    tab1, tab2, tab3 = st.tabs(["🔍 Search Relevance", "📋 Category Attribute Schemas", "🔗 SKOS Ontology Export"])
+    tab1, tab2, tab3 = st.tabs(["🔍 Search Relevance", "📋 Category Attribute Schemas", "🔗 SKOS/RDF Export"])
     
     with tab1:
         st.subheader("Taxonomy-Aware Product Retrieval")
