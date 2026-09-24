@@ -1552,7 +1552,7 @@ elif page == "🚀 Product Discovery":
     st.title("🚀 Product Discovery Layer")
     st.markdown("Exploring downstream applications of the generated taxonomy.")
     
-    tab1, tab2, tab3 = st.tabs(["🔍 Search Relevance", "📋 CMS Attribute Schemas", "🔗 SKOS Ontology Export"])
+    tab1, tab2, tab3 = st.tabs(["🔍 Search Relevance", "📋 Category Attribute Schemas", "🔗 SKOS Ontology Export"])
     
     with tab1:
         st.subheader("Taxonomy-Aware Product Retrieval")
@@ -1575,7 +1575,7 @@ elif page == "🚀 Product Discovery":
         
     with tab2:
         st.subheader("Category-Specific Attribute Schemas")
-        st.markdown("Converting keyword clusters into structured JSON schemas for Shopify/Magento integration using Qwen 2.5 7B.")
+        st.markdown("Converting keyword clusters into structured JSON schemas for product catalog metadata and filtering using Qwen 2.5 7B.")
         
         schemas = {
           "Electronics > Computer Hardware > Memory Modules": {
@@ -1592,11 +1592,11 @@ elif page == "🚀 Product Discovery":
         
         cat_select = st.selectbox("Select Category", list(schemas.keys()))
         st.json(schemas[cat_select])
-        st.caption("These schemas allow downstream Content Management Systems to enforce structured product metadata.")
+        st.caption("These schemas allow marketplace systems to enforce structured product metadata and facet filtering.")
         
     with tab3:
         st.subheader("Semantic Web Interoperability (SKOS/RDF)")
-        st.markdown("The flat `Root > Parent > Leaf` CSV has been exported into a W3C standard **SKOS** ontology graph (`taxonomy.ttl`) containing 2,224 RDF triples, allowing integration with global knowledge graphs like Wikidata or GS1 GPC.")
+        st.markdown("The flat `Root > Parent > Leaf` CSV has been exported into a W3C standard **SKOS** concept scheme (`taxonomy.ttl`) containing 2,224 RDF triples, providing a standards-based knowledge representation.")
         
         ttl_path = os.path.join(BASE_DIR, '..', '..', '07_enhancements', 'taxonomy.ttl')
         if os.path.exists(ttl_path):
